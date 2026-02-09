@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Ramza Progressive Buff Mod - Job Abilities
+Progressive skillsets for Chapter 2, 3, and 4
+Ultima (154) stays in same position as vanilla, shows as ??? until learned via hit
+-->
+
+<JobCommandTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- ==================== CHAPTER 2: FUNDAMENTS + UTILITY ==================== -->
+    <!-- Mettle Chapter 2 (Id 25) - Basic hero toolkit -->
+    <!-- Ultima at AbilityId7 shows as ??? (not learnable yet) -->
+    <JobCommand>
+      <Id>25</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>146</AbilityId1>   <!-- Focus -->
+      <AbilityId2>147</AbilityId2>   <!-- Rush -->
+      <AbilityId3>148</AbilityId3>   <!-- Throw Stone -->
+      <AbilityId4>149</AbilityId4>   <!-- Salve -->
+      <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
+      <AbilityId6>152</AbilityId6>   <!-- Chant -->
+      <AbilityId7>154</AbilityId7>   <!-- Ultima (???, learn on hit in Ch 4) -->
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>479</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>463</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
+    </JobCommand>
+
+    <!-- ==================== CHAPTER 3: LEADERSHIP TOOLS ==================== -->
+    <!-- Mettle Chapter 3 (Id 26) - Inspiring allies -->
+    <!-- Ultima at AbilityId8 shows as ??? (not learnable yet) -->
+    <JobCommand>
+      <Id>26</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>146</AbilityId1>   <!-- Focus -->
+      <AbilityId2>147</AbilityId2>   <!-- Rush -->
+      <AbilityId3>148</AbilityId3>   <!-- Throw Stone -->
+      <AbilityId4>149</AbilityId4>   <!-- Salve -->
+      <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
+      <AbilityId6>152</AbilityId6>   <!-- Chant -->
+      <AbilityId7>151</AbilityId7>   <!-- Steel -->
+      <AbilityId8>154</AbilityId8>   <!-- Ultima (???, learn on hit in Ch 4) -->
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>479</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>463</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
+    </JobCommand>
+
+    <!-- ==================== CHAPTER 4: GOD-KILLER MODE ==================== -->
+    <!-- Mettle Chapter 4 (Id 27) - Ultimate power -->
+    <!-- Ultima at AbilityId9 below Shout, learnable via hit -->
+    <JobCommand>
+      <Id>27</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>146</AbilityId1>   <!-- Focus -->
+      <AbilityId2>147</AbilityId2>   <!-- Rush -->
+      <AbilityId3>148</AbilityId3>   <!-- Throw Stone -->
+      <AbilityId4>149</AbilityId4>   <!-- Salve -->
+      <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
+      <AbilityId6>152</AbilityId6>   <!-- Chant -->
+      <AbilityId7>151</AbilityId7>   <!-- Steel -->
+      <AbilityId8>153</AbilityId8>   <!-- Shout -->
+      <AbilityId9>154</AbilityId9>   <!-- Ultima (learn on hit) -->
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>479</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>463</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
+    </JobCommand>
+
+  </Entries>
+</JobCommandTable>

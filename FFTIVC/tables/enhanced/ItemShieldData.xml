@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Ramza Progressive Buff Mod - Shield Buffs
+Genji Shield buffed with Auto-Shell and Evasion
+-->
+
+<ItemShieldTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- Genji Shield (Id 12) -->
+    <ItemShield>
+      <Id>12</Id>
+      <PhysicalEvasion>43</PhysicalEvasion>
+      <MagicalEvasion>15</MagicalEvasion>
+    </ItemShield>
+
+  </Entries>
+</ItemShieldTable>

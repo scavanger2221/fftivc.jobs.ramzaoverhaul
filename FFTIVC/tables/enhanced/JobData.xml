@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Ramza Progressive Buff Mod - Job Stats
+Progressive power scaling across Chapter 1, 2-3, and 4
+-->
+
+<JobTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- ==================== CHAPTER 1: TRAINEE HERO ==================== -->
+    <Job>
+      <Id>1</Id>
+      <!-- Squire / 見習い戦士 - Chapter 1 Ramza -->
+      
+      <!-- Equipment: Basic weapons only -->
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, HairAdornment, Hat, Flail, Sword, Knife, Unarmed</EquippableItems>
+      
+      <!-- Stats: Promising trainee, better than generics -->
+      <HPGrowth>12</HPGrowth>
+      <HPMultiplier>125</HPMultiplier>
+      
+      <MPGrowth>11</MPGrowth>
+      <MPMultiplier>105</MPMultiplier>
+      
+      <SpeedGrowth>98</SpeedGrowth>
+      <SpeedMultiplier>100</SpeedMultiplier>
+      
+      <PAGrowth>52</PAGrowth>
+      <PAMultiplier>115</PAMultiplier>
+      
+      <MAGrowth>50</MAGrowth>
+      <MAMultiplier>105</MAMultiplier>
+      
+      <Move>4</Move>
+      <Jump>3</Jump>
+      <CharacterEvasion>10</CharacterEvasion>
+      
+      <!-- Innate: Concentration (learning the basics) -->
+      <InnateAbilityId1>469</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+      
+      <ImmuneStatus>Traitor</ImmuneStatus>
+    </Job>
+
+    <!-- ==================== CHAPTER 2-3: VETERAN MERCENARY ==================== -->
+    <Job>
+      <Id>2</Id>
+      <!-- Squire / 見習い戦士 - Chapter 2-3 Ramza -->
+      
+      <!-- Equipment: Heavy armor, shields -->
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Unarmed</EquippableItems>
+      
+      <!-- Stats: Battle-hardened survivor -->
+      <HPGrowth>13</HPGrowth>
+      <HPMultiplier>140</HPMultiplier>
+      
+      <MPGrowth>12</MPGrowth>
+      <MPMultiplier>110</MPMultiplier>
+      
+      <SpeedGrowth>100</SpeedGrowth>
+      <SpeedMultiplier>105</SpeedMultiplier>
+      
+      <PAGrowth>55</PAGrowth>
+      <PAMultiplier>120</PAMultiplier>
+      
+      <MAGrowth>52</MAGrowth>
+      <MAMultiplier>110</MAMultiplier>
+      
+      <Move>5</Move>
+      <Jump>4</Jump>
+      <CharacterEvasion>12</CharacterEvasion>
+      
+      <!-- Innates: Concentration + Attack Boost (combat veteran) -->
+      <InnateAbilityId1>469</InnateAbilityId1>
+      <InnateAbilityId2>465</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+      
+      <ImmuneStatus>Traitor</ImmuneStatus>
+    </Job>
+
+    <!-- ==================== CHAPTER 4: ZODIAC GOD-KILLER ==================== -->
+    <Job>
+      <Id>3</Id>
+      <!-- Gallant Knight / 見習い天騎士 - Chapter 4 Ramza -->
+      
+      <!-- Equipment: ALL weapons (freedom to build) -->
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
+      
+      <!-- Stats: Legendary hero who defeated Ultima -->
+      <HPGrowth>15</HPGrowth>
+      <HPMultiplier>160</HPMultiplier>
+      
+      <MPGrowth>13</MPGrowth>
+      <MPMultiplier>120</MPMultiplier>
+      
+      <SpeedGrowth>102</SpeedGrowth>
+      <SpeedMultiplier>110</SpeedMultiplier>
+      
+      <PAGrowth>58</PAGrowth>
+      <PAMultiplier>125</PAMultiplier>
+      
+      <MAGrowth>55</MAGrowth>
+      <MAMultiplier>120</MAMultiplier>
+      
+      <Move>5</Move>
+      <Jump>4</Jump>
+      <CharacterEvasion>15</CharacterEvasion>
+      
+      <!-- Innates: All three (master of all forms) -->
+      <InnateAbilityId1>469</InnateAbilityId1>
+      <InnateAbilityId2>465</InnateAbilityId2>
+      <InnateAbilityId3>482</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+      
+      <ImmuneStatus>Traitor</ImmuneStatus>
+    </Job>
+
+    <!-- ==================== ARCHER BUFF: Concentration + PA ==================== -->
+    <Job>
+      <Id>77</Id>
+      <!-- Archer / 弓使い - Now with Concentration innate and stronger attacks -->
+      
+      <!-- Stats: 10% more PA (was 110, now 120) -->
+      <PAMultiplier>120</PAMultiplier>
+      
+      <!-- Innate: Concentration (every shot counts) -->
+      <InnateAbilityId1>469</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ==================== SAMURAI BUFF: Doublehand + PA/MA ==================== -->
+    <Job>
+      <Id>88</Id>
+      <!-- Samurai / 侍 - Buffed for MA-based abilities -->
+      
+      <!-- Stats: Higher PA and MA for physical + magical hybrid -->
+      <PAMultiplier>132</PAMultiplier>  <!-- Was 128, now 132 (+4) -->
+      <MAMultiplier>110</MAMultiplier>  <!-- Was 90, now 110 (+20) -->
+      
+      <!-- Innate: Doublehand (Id 476) - Wield katanas with both hands for more damage -->
+      <InnateAbilityId1>476</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ==================== JOB INNATES BUFF ==================== -->
+    
+    <!-- Knight: Defense Boost (vulnerable to magic, needs physical defense) -->
+    <Job>
+      <Id>76</Id>
+      <InnateAbilityId1>466</InnateAbilityId1>  <!-- Defense Boost -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- White Mage: Magick Defense Boost (squishy healer needs magic defense) -->
+    <Job>
+      <Id>79</Id>
+      <InnateAbilityId1>468</InnateAbilityId1>  <!-- Magick Defense Boost -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Dragoon: Ignore Elevation (jumps from anywhere) -->
+    <Job>
+      <Id>87</Id>
+      <InnateAbilityId1>492</InnateAbilityId1>  <!-- Ignore Elevation -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Time Mage: Swiftspell (fast casting for buffs/debuffs) -->
+    <Job>
+      <Id>81</Id>
+      <InnateAbilityId1>482</InnateAbilityId1>  <!-- Swiftspell -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Summoner: Halve MP (expensive summons need MP reduction) -->
+    <Job>
+      <Id>82</Id>
+      <InnateAbilityId1>462</InnateAbilityId1>  <!-- Halve MP -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Mystic: Swiftspell (fast casting for status magic) -->
+    <Job>
+      <Id>85</Id>
+      <InnateAbilityId1>482</InnateAbilityId1>  <!-- Swiftspell -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Geomancer: Attack Boost (nature's fury hits harder) -->
+    <Job>
+      <Id>86</Id>
+      <InnateAbilityId1>465</InnateAbilityId1>  <!-- Attack Boost -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Thief: Concentration (easier to steal with accuracy) -->
+    <Job>
+      <Id>83</Id>
+      <InnateAbilityId1>469</InnateAbilityId1>  <!-- Concentration -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- Holy Knight (Id 30): Magick Defense Boost + PA/MA buff -->
+    <Job>
+      <Id>30</Id>
+      <!-- Stats: Better PA/MA to match holy knight prestige -->
+      <PAMultiplier>115</PAMultiplier>  <!-- Was 100, now 115 -->
+      <MAMultiplier>105</MAMultiplier>  <!-- Was 100, now 105 -->
+      <InnateAbilityId1>468</InnateAbilityId1>  <!-- Magick Defense Boost -->
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+  </Entries>
+</JobTable>

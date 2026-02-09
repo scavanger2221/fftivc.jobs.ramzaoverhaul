@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Shop Changes - Make rare weapons purchaseable in late-game shops
+-->
+
+<ItemShopsTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- Artemis Bow - Now available in late-game shops -->
+    <ItemShops>
+      <Id>89</Id> <!-- Artemis Bow / あるてみすのゆみ / arc dartemis / artemis bogen -->
+      <Shops>Lesalia, Riovanes</Shops>
+    </ItemShops>
+
+    <!-- Holy Lance - Now available in Chapter 4 shops (was rare) -->
+    <ItemShops>
+      <Id>104</Id> <!-- Holy Lance / ほーりーらんす / lance sacree / heilige lanze -->
+      <Shops>Riovanes, Lesalia</Shops> <!-- Chapter 4 -->
+    </ItemShops>
+
+  </Entries>
+</ItemShopsTable>

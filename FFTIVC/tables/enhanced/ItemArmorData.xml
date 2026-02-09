@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Ramza Progressive Buff Mod - Heavy Armor Buffs
+HP bonuses set to Vanilla + ~30%
+-->
+
+<ItemArmorTable>
+  <Version>1</Version>
+  <Entries>
+    <ItemArmor>
+      <Id>28</Id> <!-- Leather: 10 -> 13 -->
+      <HPBonus>13</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>29</Id> <!-- Linen: 20 -> 26 -->
+      <HPBonus>26</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>30</Id> <!-- Bronze: 30 -> 39 -->
+      <HPBonus>39</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>31</Id> <!-- Chainmail: 40 -> 52 -->
+      <HPBonus>52</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>32</Id> <!-- Mythril: 50 -> 65 -->
+      <HPBonus>65</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>33</Id> <!-- Plate: 60 -> 78 -->
+      <HPBonus>78</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>34</Id> <!-- Gold: 70 -> 91 -->
+      <HPBonus>91</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>35</Id> <!-- Diamond: 80 -> 104 -->
+      <HPBonus>104</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>36</Id> <!-- Platinum: 90 -> 117 -->
+      <HPBonus>117</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>37</Id> <!-- Carabineer: 100 -> 130 -->
+      <HPBonus>130</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>38</Id> <!-- Crystal: 110 -> 143 -->
+      <HPBonus>143</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>40</Id> <!-- Mirror: 130 -> 169 -->
+      <HPBonus>169</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>39</Id> <!-- Genji: 150 -> 195 -->
+      <HPBonus>195</HPBonus>
+    </ItemArmor>
+    <ItemArmor>
+      <Id>41</Id> <!-- Maximillian: 200 -> 255 -->
+      <HPBonus>255</HPBonus>
+    </ItemArmor>
+  </Entries>
+</ItemArmorTable>

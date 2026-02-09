@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Archer Buff - Better bow/crossbow scaling to compete with swords
+Tiered buff: Early +1, Mid +2-3, Endgame +4-5
+-->
+
+<ItemWeaponTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- ==================== BOWS ==================== -->
+    
+    <!-- Early Game: +1 -->
+    <ItemWeapon>
+      <Id>83</Id> <!-- Longbow: 4 → 5 -->
+      <Power>5</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>84</Id> <!-- Silver Bow: 5 → 7 -->
+      <Power>7</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>85</Id> <!-- Ice Bow: 5 → 7 -->
+      <Power>7</Power>
+    </ItemWeapon>
+
+    <!-- Mid Game: +2 -->
+    <ItemWeapon>
+      <Id>86</Id> <!-- Lightning Bow: 6 → 8 -->
+      <Power>8</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>88</Id> <!-- Mythril Bow: 7 → 9 -->
+      <Power>9</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>87</Id> <!-- Windslash Bow: 8 → 11 -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+    <!-- Late Game: +3 -->
+    <ItemWeapon>
+      <Id>89</Id> <!-- Artemis Bow: 10 → 14 -->
+      <Power>14</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>90</Id> <!-- Yoichi Bow: 12 → 16 -->
+      <Power>16</Power>
+    </ItemWeapon>
+
+    <!-- Endgame: +3 (Charge +20 makes up the rest) -->
+    <ItemWeapon>
+      <Id>91</Id> <!-- Perseus Bow: 16 → 19 -->
+      <Power>19</Power>
+    </ItemWeapon>
+
+    <!-- ==================== CROSSBOWS ==================== -->
+    
+    <!-- Early: +1 -->
+    <ItemWeapon>
+      <Id>77</Id> <!-- Bowgun: 3 → 4 -->
+      <Power>4</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>78</Id> <!-- Knightslayer: 3 → 4 -->
+      <Power>4</Power>
+    </ItemWeapon>
+
+    <!-- Mid: +2 -->
+    <ItemWeapon>
+      <Id>79</Id> <!-- Crossbow: 4 → 6 -->
+      <Power>6</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>80</Id> <!-- Poison Crossbow: 4 → 6 -->
+      <Power>6</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>81</Id> <!-- Hunting Crossbow: 6 → 8 -->
+      <Power>8</Power>
+    </ItemWeapon>
+
+    <!-- Endgame: +4 -->
+    <ItemWeapon>
+      <Id>82</Id> <!-- Gastrophetes: 10 → 14 -->
+      <Power>14</Power>
+    </ItemWeapon>
+
+    <!-- ==================== ENDGAME REGULAR SWORDS (Non-Knight Swords) ==================== -->
+    <!-- Small +1 buff for Ch 3 late game regular swords -->
+    
+    <ItemWeapon>
+      <Id>27</Id> <!-- Platinum Sword: 12 → 13 -->
+      <Power>13</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>28</Id> <!-- Diamond Sword: 10 → 11 -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>29</Id> <!-- Icebrand: 13 → 14 -->
+      <Power>14</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>30</Id> <!-- Runeblade: 14 → 15 -->
+      <Power>15</Power>
+    </ItemWeapon>
+
+    <!-- ==================== SPEARS (Shop Buffs) ==================== -->
+    <!-- Conservative +1/+2 buffs for progression balance -->
+    
+    <ItemWeapon>
+      <Id>100</Id> <!-- Spear: 9 → 10 (+1) -->
+      <Power>10</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>101</Id> <!-- Mythril Spear: 10 → 11 (+1) -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>102</Id> <!-- Partisan: 11 → 12 (+1) -->
+      <Power>12</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>103</Id> <!-- Obelisk: 12 → 13 (+1) -->
+      <Power>13</Power>
+    </ItemWeapon>
+
+    <!-- Chapter 4 shop spears (now purchaseable) -->
+    <ItemWeapon>
+      <Id>104</Id> <!-- Holy Lance: 14 → 15 (+1, Holy element bonus) -->
+      <Power>15</Power>
+    </ItemWeapon>
+
+    <!-- ==================== KATANAS (Chapter 3 + Endgame) ==================== -->
+    <!-- +1 buff to match sword buffs -->
+    
+    <!-- Chapter 3 Tier -->
+    <ItemWeapon>
+      <Id>40</Id> <!-- Bizen Osafune: 8 → 9 -->
+      <Power>9</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>41</Id> <!-- Murasame: 10 → 11 -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>42</Id> <!-- Ame-no-Murakumo: 11 → 12 -->
+      <Power>12</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>43</Id> <!-- Kiyomori: 12 → 13 -->
+      <Power>13</Power>
+    </ItemWeapon>
+
+    <!-- Endgame Tier -->
+    <ItemWeapon>
+      <Id>44</Id> <!-- Muramasa: 14 → 15 -->
+      <Power>15</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>45</Id> <!-- Kiku-ichimonji: 15 → 16 -->
+      <Power>16</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>46</Id> <!-- Masamune: 18 → 19 -->
+      <Power>19</Power>
+    </ItemWeapon>
+
+    <!-- Chirijiraden stays at 25 (already OP) -->
+
+    <!-- ==================== POLES (Monk weapons) ==================== -->
+    <!-- Poles buffed for Monk viability -->
+
+    <ItemWeapon>
+      <Id>107</Id> <!-- Cypress Pole: 6 → 9 (+3) -->
+      <Power>9</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>109</Id> <!-- Musk Pole: 8 → 11 (+3) -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>111</Id> <!-- Gokuu's Pole: 10 → 13 (+3) -->
+      <Power>13</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>112</Id> <!-- Ivory Pole: 11 → 14 (+3) -->
+      <Power>14</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>113</Id> <!-- Eight-fluted Pole: 12 → 15 (+3) -->
+      <Power>15</Power>
+    </ItemWeapon>
+
+    <!-- ==================== BAGS (Chemist/Onion Knight) ==================== -->
+    <!-- Bags buffed for viability (+2 from Vanilla) -->
+
+    <ItemWeapon>
+      <Id>115</Id> <!-- Catskin Bag: 10 → 12 -->
+      <Power>12</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>116</Id> <!-- Fallingstar Bag: 20 → 22 -->
+      <Power>22</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>117</Id> <!-- Proudhide Bag: 12 → 14 -->
+      <Power>14</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>118</Id> <!-- Hardscale Bag: 14 → 16 -->
+      <Power>16</Power>
+    </ItemWeapon>
+
+    <!-- ==================== AXES (Spell Proc + Power) ==================== -->
+    
+    <ItemWeapon>
+      <Id>48</Id> <!-- Battle Axe: Power Sap +2 Power -->
+      <Power>11</Power>  <!-- 9 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>88</OptionsAbilityId>  <!-- Power Sap -->
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>49</Id> <!-- Giant's Axe: Magick Sap +2 Power -->
+      <Power>14</Power>  <!-- 12 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>90</OptionsAbilityId>  <!-- Magick Sap -->
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>50</Id> <!-- Slasher: Speed Sap +2 Power -->
+      <Power>18</Power>  <!-- 16 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>92</OptionsAbilityId>  <!-- Speed Sap -->
+    </ItemWeapon>
+
+    <!-- ==================== FLAILS (Spell Proc + Power) ==================== -->
+    
+    <ItemWeapon>
+      <Id>67</Id> <!-- Iron Flail: Thundara +2 Power -->
+      <Power>11</Power>  <!-- 9 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>21</OptionsAbilityId>  <!-- Thundara -->
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>68</Id> <!-- Flail of Flame: Fira +2 Power -->
+      <Power>13</Power>  <!-- 11 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>61</OptionsAbilityId>  <!-- Fira -->
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>69</Id> <!-- Morning Star: Thundaga +2 Power -->
+      <Power>18</Power>  <!-- 16 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>22</OptionsAbilityId>  <!-- Thundaga -->
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>70</Id> <!-- Scorpion Tail: Bio +2 Power -->
+      <Power>25</Power>  <!-- 23 + 2 -->
+      <Formula>2</Formula>
+      <OptionsAbilityId>73</OptionsAbilityId>  <!-- Bio -->
+    </ItemWeapon>
+
+    <!-- ==================== DAGGERS & KNIVES ==================== -->
+    <!-- +1 power to make early game dual wield more viable -->
+    
+    <ItemWeapon>
+      <Id>1</Id> <!-- Dagger: 3 → 4 -->
+      <Power>4</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>2</Id> <!-- Mythril Knife: 4 → 5 -->
+      <Power>5</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>3</Id> <!-- Blind Knife: 4 → 5 -->
+      <Power>5</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>4</Id> <!-- Mage Masher: 4 → 5 -->
+      <Power>5</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>5</Id> <!-- Platinum Dagger: 5 → 6 -->
+      <Power>6</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>6</Id> <!-- Main Gauche: 6 → 7 -->
+      <Power>7</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>7</Id> <!-- Orichalcum Dirk: 7 → 8 -->
+      <Power>8</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>8</Id> <!-- Assassin's Dagger: 7 → 8 -->
+      <Power>8</Power>
+    </ItemWeapon>
+
+    <!-- ==================== SHURIKEN ==================== -->
+    <!-- +1 power for Ninja throwing damage -->
+    
+    <ItemWeapon>
+      <Id>122</Id> <!-- Shuriken: 4 → 5 -->
+      <Power>5</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>123</Id> <!-- Fuma Shuriken: 7 → 8 -->
+      <Power>8</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>124</Id> <!-- Yagyu Darkrood: 10 → 11 -->
+      <Power>11</Power>
+    </ItemWeapon>
+
+  </Entries>
+</ItemWeaponTable>

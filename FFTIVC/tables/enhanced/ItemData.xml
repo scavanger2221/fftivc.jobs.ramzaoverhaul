@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Ramza Progressive Buff Mod - Genji Set & Late Armor/Helm Assignments
+Pattern: Trade-off between raw HP and extra PA/MA bonuses
+-->
+
+<ItemTable>
+  <Version>1</Version>
+  <Entries>
+
+    <!-- GENJI SET -->
+    <Item>
+      <Id>155</Id> <!-- Genji Helm -->
+      <EquipBonusId>51</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>183</Id> <!-- Genji Armor -->
+      <EquipBonusId>52</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>140</Id> <!-- Genji Shield -->
+      <EquipBonusId>53</EquipBonusId>
+    </Item>
+
+    <!-- ARMOR PATTERN (Bonus -> No Bonus -> Bonus) -->
+    <Item>
+      <Id>179</Id> <!-- Diamond Armor: No Bonus (High HP) -->
+      <EquipBonusId>0</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>180</Id> <!-- Platinum Armor: Bonus -->
+      <EquipBonusId>55</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>181</Id> <!-- Carabineer Mail: No Bonus (High HP) -->
+      <EquipBonusId>0</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>182</Id> <!-- Crystal Mail: Bonus -->
+      <EquipBonusId>57</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>185</Id> <!-- Maximillian: Balanced Bonus -->
+      <EquipBonusId>61</EquipBonusId>
+    </Item>
+
+    <!-- HELM PATTERN (Similar logic) -->
+    <Item>
+      <Id>151</Id> <!-- Diamond Helm: No Bonus -->
+      <EquipBonusId>0</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>152</Id> <!-- Platinum Helm: Bonus -->
+      <EquipBonusId>58</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>153</Id> <!-- Circlet: No Bonus -->
+      <EquipBonusId>0</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>154</Id> <!-- Crystal Helm: Bonus -->
+      <EquipBonusId>59</EquipBonusId>
+    </Item>
+    <Item>
+      <Id>156</Id> <!-- Grand Helm: Ultimate Bonus -->
+      <EquipBonusId>60</EquipBonusId>
+    </Item>
+
+  </Entries>
+</ItemTable>
