@@ -190,31 +190,31 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
     <!-- Chirijiraden stays at 25 (already OP) -->
 
     <!-- ==================== POLES (Monk weapons) ==================== -->
-    <!-- Poles buffed for Monk viability -->
+    <!-- Poles buffed for Monk viability (+1 from Vanilla) -->
 
     <ItemWeapon>
-      <Id>107</Id> <!-- Cypress Pole: 6 → 9 (+3) -->
+      <Id>107</Id> <!-- Cypress Pole: 6 → 7 -->
+      <Power>7</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>109</Id> <!-- Musk Pole: 8 → 9 -->
       <Power>9</Power>
     </ItemWeapon>
 
     <ItemWeapon>
-      <Id>109</Id> <!-- Musk Pole: 8 → 11 (+3) -->
+      <Id>111</Id> <!-- Gokuu's Pole: 10 → 11 -->
       <Power>11</Power>
     </ItemWeapon>
 
     <ItemWeapon>
-      <Id>111</Id> <!-- Gokuu's Pole: 10 → 13 (+3) -->
+      <Id>112</Id> <!-- Ivory Pole: 11 → 12 -->
+      <Power>12</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>113</Id> <!-- Eight-fluted Pole: 12 → 13 -->
       <Power>13</Power>
-    </ItemWeapon>
-
-    <ItemWeapon>
-      <Id>112</Id> <!-- Ivory Pole: 11 → 14 (+3) -->
-      <Power>14</Power>
-    </ItemWeapon>
-
-    <ItemWeapon>
-      <Id>113</Id> <!-- Eight-fluted Pole: 12 → 15 (+3) -->
-      <Power>15</Power>
     </ItemWeapon>
 
     <!-- ==================== BAGS (Chemist/Onion Knight) ==================== -->
