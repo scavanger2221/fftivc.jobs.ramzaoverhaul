@@ -2,8 +2,13 @@
 
 <!--
 Ramza Progressive Buff Mod - Job Abilities
+<<<<<<< HEAD
 Progressive skillsets for Chapter 1, 2-3, and 4
 Ultima (154) stays in same position as vanilla, shows as ??? until learned via hit
+=======
+Restoring Duskblade (164) and Shadowblade (165) to all chapters
+Ultima (154) stays in vanilla position
+>>>>>>> 56fb2f1 (Equipment & Skill Polish:)
 -->
 
 <JobCommandTable>
@@ -47,16 +52,22 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <Id>26</Id>
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
       <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
-      <AbilityId1>146</AbilityId1>   <!-- Focus -->
-      <AbilityId2>147</AbilityId2>   <!-- Rush -->
-      <AbilityId3>148</AbilityId3>   <!-- Throw Stone -->
-      <AbilityId4>149</AbilityId4>   <!-- Salve -->
-      <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
-      <AbilityId6>152</AbilityId6>   <!-- Chant -->
+      <AbilityId1>146</AbilityId1>
+      <AbilityId2>147</AbilityId2>
+      <AbilityId3>148</AbilityId3>
+      <AbilityId4>149</AbilityId4>
+      <AbilityId5>150</AbilityId5>
+      <AbilityId6>152</AbilityId6>
       <AbilityId7>151</AbilityId7>   <!-- Steel -->
+<<<<<<< HEAD
       <AbilityId8>154</AbilityId8>   <!-- Ultima (???, learn on hit in Ch 4) -->
       <AbilityId9>164</AbilityId9>   <!-- Duskblade (Drain MP) -->
       <AbilityId10>165</AbilityId10>   <!-- Shadowblade (Drain HP) -->
+=======
+      <AbilityId8>154</AbilityId8>   <!-- Ultima (???) -->
+      <AbilityId9>164</AbilityId9>   <!-- Duskblade -->
+      <AbilityId10>165</AbilityId10> <!-- Shadowblade -->
+>>>>>>> 56fb2f1 (Equipment & Skill Polish:)
       <AbilityId11>0</AbilityId11>
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
@@ -72,23 +83,27 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
     </JobCommand>
 
     <!-- ==================== CHAPTER 4: GOD-KILLER MODE ==================== -->
-    <!-- Mettle Chapter 4 (Id 27) - Ultimate power -->
-    <!-- Ultima at AbilityId9 below Shout, learnable via hit -->
     <JobCommand>
       <Id>27</Id>
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
       <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
-      <AbilityId1>146</AbilityId1>   <!-- Focus -->
-      <AbilityId2>147</AbilityId2>   <!-- Rush -->
-      <AbilityId3>148</AbilityId3>   <!-- Throw Stone -->
-      <AbilityId4>149</AbilityId4>   <!-- Salve -->
-      <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
-      <AbilityId6>152</AbilityId6>   <!-- Chant -->
-      <AbilityId7>151</AbilityId7>   <!-- Steel -->
+      <AbilityId1>146</AbilityId1>
+      <AbilityId2>147</AbilityId2>
+      <AbilityId3>148</AbilityId3>
+      <AbilityId4>149</AbilityId4>
+      <AbilityId5>150</AbilityId5>
+      <AbilityId6>152</AbilityId6>
+      <AbilityId7>151</AbilityId7>
       <AbilityId8>153</AbilityId8>   <!-- Shout -->
+<<<<<<< HEAD
       <AbilityId9>154</AbilityId9>   <!-- Ultima (learn on hit) -->
       <AbilityId10>164</AbilityId10>   <!-- Duskblade (Drain MP) -->
       <AbilityId11>165</AbilityId11>   <!-- Shadowblade (Drain HP) -->
+=======
+      <AbilityId9>154</AbilityId9>   <!-- Ultima (Learnable) -->
+      <AbilityId10>164</AbilityId10> <!-- Duskblade -->
+      <AbilityId11>165</AbilityId11> <!-- Shadowblade -->
+>>>>>>> 56fb2f1 (Equipment & Skill Polish:)
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
