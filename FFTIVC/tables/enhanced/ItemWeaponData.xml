@@ -354,5 +354,27 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Power>11</Power>
     </ItemWeapon>
 
+    <!-- ==================== GUNS (+1 Power, except Magic Guns) ==================== -->
+
+    <ItemWeapon>
+      <Id>71</Id> <!-- Romandan Pistol: 8 → 9 -->
+      <Power>9</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>72</Id> <!-- Mythril Gun: 12 → 13 -->
+      <Power>13</Power>
+    </ItemWeapon>
+
+    <ItemWeapon>
+      <Id>73</Id> <!-- Stoneshooter: 16 → 17 -->
+      <Power>17</Power>
+    </ItemWeapon>
+
+    <!-- Magic Guns - No buff (Glacial Gun, Blaze Gun, Blaster) -->
+    <!-- Id 74 Glacial Gun - unchanged -->
+    <!-- Id 75 Blaze Gun - unchanged -->
+    <!-- Id 76 Blaster - unchanged -->
+
   </Entries>
 </ItemWeaponTable>

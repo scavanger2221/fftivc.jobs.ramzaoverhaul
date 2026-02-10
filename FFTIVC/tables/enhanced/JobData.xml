@@ -135,16 +135,15 @@ Progressive power scaling across Chapter 1, 2-3, and 4
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ==================== SAMURAI BUFF: Doublehand + PA/MA ==================== -->
+    <!-- ==================== SAMURAI BUFF: Doublehand + PA ==================== -->
     <Job>
       <Id>88</Id>
-      <!-- Samurai / 侍 - Buffed for MA-based abilities -->
+      <!-- Samurai / 侍 - High PA with Doublehand -->
       
-      <!-- Stats: Higher PA and MA for physical + magical hybrid -->
-      <PAMultiplier>132</PAMultiplier>  <!-- Was 128, now 132 (+4) -->
-      <MAMultiplier>110</MAMultiplier>  <!-- Was 90, now 110 (+20) -->
+      <!-- Stats: High PA for katana damage -->
+      <PAMultiplier>135</PAMultiplier>  <!-- Was 132, now 135 (+3) -->
       
-      <!-- Innate: Doublehand (Id 476) - Wield katanas with both hands for more damage -->
+      <!-- Innate: Doublehand (Id 476) -->
       <InnateAbilityId1>476</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
@@ -198,7 +197,7 @@ Progressive power scaling across Chapter 1, 2-3, and 4
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- Mystic: Swiftspell (fast casting for status magic) -->
+    <!-- Mystic: Swiftspell -->
     <Job>
       <Id>85</Id>
       <InnateAbilityId1>482</InnateAbilityId1>  <!-- Swiftspell -->
@@ -236,6 +235,61 @@ Progressive power scaling across Chapter 1, 2-3, and 4
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
+
+    <!-- ==================== MONSTER HP BUFFS (+20% Base) ==================== -->
+
+    <!-- Goblins -->
+    <Job><Id>97</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>98</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>99</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>170</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>171</Id><HPMultiplier>145</HPMultiplier></Job>
+
+    <!-- Chocobos -->
+    <Job><Id>94</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>95</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>96</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>173</Id><HPMultiplier>130</HPMultiplier></Job>
+
+    <!-- Bombs -->
+    <Job><Id>100</Id><HPMultiplier>110</HPMultiplier></Job>
+    <Job><Id>101</Id><HPMultiplier>115</HPMultiplier></Job>
+    <Job><Id>102</Id><HPMultiplier>120</HPMultiplier></Job>
+    <Job><Id>172</Id><HPMultiplier>110</HPMultiplier></Job>
+
+    <!-- Panthers -->
+    <Job><Id>103</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>104</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>105</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>169</Id><HPMultiplier>135</HPMultiplier></Job>
+
+    <!-- Undead (Skeletons/Ghouls) -->
+    <Job><Id>109</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>110</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>111</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>112</Id><HPMultiplier>110</HPMultiplier></Job>
+    <Job><Id>113</Id><HPMultiplier>115</HPMultiplier></Job>
+    <Job><Id>114</Id><HPMultiplier>120</HPMultiplier></Job>
+
+    <!-- Behemoths -->
+    <Job><Id>133</Id><HPMultiplier>170</HPMultiplier></Job>
+    <Job><Id>134</Id><HPMultiplier>180</HPMultiplier></Job>
+    <Job><Id>135</Id><HPMultiplier>190</HPMultiplier></Job>
+
+    <!-- Dragons -->
+    <Job><Id>136</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>137</Id><HPMultiplier>170</HPMultiplier></Job>
+    <Job><Id>138</Id><HPMultiplier>180</HPMultiplier></Job>
+
+    <!-- Hydras -->
+    <Job><Id>139</Id><HPMultiplier>115</HPMultiplier></Job>
+    <Job><Id>140</Id><HPMultiplier>125</HPMultiplier></Job>
+    <Job><Id>141</Id><HPMultiplier>140</HPMultiplier></Job>
+
+    <!-- Malboros -->
+    <Job><Id>130</Id><HPMultiplier>210</HPMultiplier></Job>
+    <Job><Id>131</Id><HPMultiplier>220</HPMultiplier></Job>
+    <Job><Id>132</Id><HPMultiplier>230</HPMultiplier></Job>
 
   </Entries>
 </JobTable>

@@ -33,7 +33,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>1</Id> <!-- Cure / ケアル / Soin / Vita -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -41,7 +41,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>2</Id> <!-- Cura / ケアルラ / Extra-Soin / Vitra -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -49,7 +49,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>3</Id> <!-- Curaga / ケアルガ / Méga-Soin / Vitaga -->
-      <JPCost>180</JPCost>
+      <JPCost>90</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -57,7 +57,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>4</Id> <!-- Curaja / ケアルジャ / Giga-Soin / Vitaka -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -65,7 +65,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>5</Id> <!-- Raise / レイズ / Vie / Engel -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -73,7 +73,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>6</Id> <!-- Arise / アレイズ / Maxi-Vie / Erzengel -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -81,7 +81,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>7</Id> <!-- Reraise / リレイズ / Auréole / Schutzengel -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -89,7 +89,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>8</Id> <!-- Regen / リジェネ / Récupération / Regena -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -97,7 +97,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>9</Id> <!-- Protect / プロテス / Bouclier / Protes -->
-      <JPCost>30</JPCost>
+      <JPCost>15</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -105,7 +105,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>10</Id> <!-- Protectja / プロテジャ / Giga-Bouclier / Proteska -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -113,7 +113,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>11</Id> <!-- Shell / シェル / Barrière / Vallum -->
-      <JPCost>30</JPCost>
+      <JPCost>15</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -121,7 +121,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>12</Id> <!-- Shellja / シェルジャ / Giga-Barrière / Vallka -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -129,7 +129,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>13</Id> <!-- Wall / ウォール / Mur / Wall -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -137,7 +137,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>14</Id> <!-- Esuna / エスナ / Guérison / Medica -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -145,7 +145,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>15</Id> <!-- Holy / ホーリー / Miracle / Sanctus -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -153,7 +153,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>16</Id> <!-- Fire / ファイア / Feu / Feuer -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -161,7 +161,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>17</Id> <!-- Fira / ファイラ / Extra-Feu / Feura -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>65</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -169,7 +169,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>18</Id> <!-- Firaga / ファイガ / Méga-Feu / Feuga -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -177,7 +177,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>19</Id> <!-- Firaja / ファイジャ / Giga-Feu / Feuka -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -185,7 +185,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>20</Id> <!-- Thunder / サンダー / Foudre / Blitz -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -193,7 +193,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>21</Id> <!-- Thundara / サンダラ / Extra-Foudre / Blitzra -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>75</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -201,7 +201,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>22</Id> <!-- Thundaga / サンダガ / Méga-Foudre / Blitzga -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -209,7 +209,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>23</Id> <!-- Thundaja / サンダジャ / Giga-Foudre / Blitzka -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -217,7 +217,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>24</Id> <!-- Blizzard / ブリザド / Glace / Eis -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -225,7 +225,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>25</Id> <!-- Blizzara / ブリザラ / Extra-Glace / Eisra -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>85</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -233,7 +233,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>26</Id> <!-- Blizzaga / ブリザガ / Méga-Glace / Eisga -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -241,7 +241,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>27</Id> <!-- Blizzaja / ブリザジャ / Giga-Glace / Eiska -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -249,7 +249,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>28</Id> <!-- Poison / ポイズン / Poison / Gift -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -257,7 +257,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>29</Id> <!-- Toad / トード / Crapaud / Frosch -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -265,7 +265,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>30</Id> <!-- Death / デス / Mort / Tod -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -273,7 +273,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>31</Id> <!-- Flare / フレア / Fission / Flare -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -281,7 +281,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>32</Id> <!-- Haste / ヘイスト / Hâte / Hast -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -289,7 +289,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>33</Id> <!-- Hasteja / ヘイスジャ / Giga-Hâte / Hastka -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -297,7 +297,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>34</Id> <!-- Slow / スロウ / Lenteur / Gemach -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -305,7 +305,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>35</Id> <!-- Slowja / スロウジャ / Giga-Lenteur / Gemachka -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -313,7 +313,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>36</Id> <!-- Stop / ストップ / Stop / Stopp -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -321,7 +321,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>37</Id> <!-- Immobilize / ドンムブ / Inertie / Defix -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -329,7 +329,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>38</Id> <!-- Float / レビテト / Lévitation / Levitas -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -337,7 +337,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>39</Id> <!-- Reflect / リフレク / Miroir / Reflek -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -353,7 +353,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>41</Id> <!-- Quick / クイック / Célérité / Beschleunigen -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -361,7 +361,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>42</Id> <!-- Gravity / グラビデ / Gravité / Gravitas -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>75</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -369,7 +369,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>43</Id> <!-- Graviga / グラビガ / Méga-Gravité / Graviga -->
-      <JPCost>220</JPCost>
+      <JPCost>110</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -377,7 +377,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>44</Id> <!-- Meteor / メテオ / Météore / Meteo -->
-      <JPCost>600</JPCost>
+      <JPCost>300</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -393,7 +393,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>46</Id> <!-- Umbra / 闇縛符 / Occultation / Dunkelschleier -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -401,7 +401,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>47</Id> <!-- Empowerment / 魔吸唱 / Absorption mystique / Absorbieren -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -409,7 +409,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>48</Id> <!-- Invigoration / 命吸唱 / Absorption charnelle / Entziehen -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -417,7 +417,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>49</Id> <!-- Belief / 信祈仰祷 / Dévotion / Bekehrung -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -425,7 +425,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>50</Id> <!-- Disbelief / 信疑仰祷 / Apostasie / Glaubensabfall -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -433,7 +433,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>51</Id> <!-- Corruption / 腐生骸屍 / Déliquescence / Verwesung -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -441,7 +441,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>52</Id> <!-- Quiescence / 沈黙唱 / Mutité / Lied der Stille -->
-      <JPCost>70</JPCost>
+      <JPCost>35</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -449,7 +449,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>53</Id> <!-- Fervor / 勇猛狂符 / Éréthisme / Weißglut -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -457,7 +457,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>54</Id> <!-- Trepidation / 狐鶏鼠 / Découragement / Beklemmung -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -465,7 +465,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>55</Id> <!-- Delirium / 乱心唱 / Déstabilisation / Delirium -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -473,7 +473,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>56</Id> <!-- Harmony / 絶装魔脱 / Révocation / Entzauberung -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -481,7 +481,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>57</Id> <!-- Hesitation / 不変不動 / Paralysation / Erstarren -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -489,7 +489,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>58</Id> <!-- Repose / 夢邪睡符 / Narcose / Schlaf -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -497,7 +497,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>59</Id> <!-- Induration / 碑封印 / Emmuration / Steinfluch -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -505,7 +505,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>60</Id> <!-- Moogle / モーグリ / Mog / Mogry -->
-      <JPCost>50</JPCost>
+      <JPCost>25</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -513,7 +513,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>61</Id> <!-- Shiva / シヴァ / Shiva / Shiva -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -521,7 +521,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>62</Id> <!-- Ramuh / ラムウ / Ramuh / Ramuh -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -529,7 +529,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>63</Id> <!-- Ifrit / イフリート / Ifrit / Ifrit -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -537,7 +537,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>64</Id> <!-- Titan / タイタン / Titan / Titan -->
-      <JPCost>90</JPCost>
+      <JPCost>45</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -545,7 +545,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>65</Id> <!-- Golem / ゴーレム / Golem / Golem -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -553,7 +553,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>66</Id> <!-- Carbuncle / カーバンクル / Carbuncle / Karfunkel -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -561,7 +561,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>67</Id> <!-- Bahamut / バハムート / Bahamut / Bahamut -->
-      <JPCost>640</JPCost>
+      <JPCost>320</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -569,7 +569,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>68</Id> <!-- Odin / オーディン / Odin / Odin -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -577,7 +577,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>69</Id> <!-- Leviathan / リヴァイアサン / Léviathan / Leviathan -->
-      <JPCost>350</JPCost>
+      <JPCost>175</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -585,7 +585,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>70</Id> <!-- Salamander / サラマンダー / Salamandre / Salamander -->
-      <JPCost>350</JPCost>
+      <JPCost>175</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -593,7 +593,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>71</Id> <!-- Sylph / シルフ / Sylphe / Sylphe -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -601,7 +601,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>72</Id> <!-- Faerie / フェアリー / Fée / Fee -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -609,7 +609,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>73</Id> <!-- Lich / リッチ / Liche / Lich -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -617,7 +617,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>74</Id> <!-- Cyclops / クリュプス / Cyclope / Zyklop -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -625,7 +625,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>75</Id> <!-- Zodiark / ゾディアーク / Zodiarche / Zodiarche -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -633,7 +633,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>76</Id> <!-- Ashura / 阿修羅 / Ashura / Ashura -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -641,7 +641,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>77</Id> <!-- Kotetsu / 虎徹 / Kotetsu / Kotetsu -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -649,7 +649,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>78</Id> <!-- Bizen Osafune / 備前長船 / Bizen-Osafune / Bizen-Osafune -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -657,7 +657,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>79</Id> <!-- Murasame / 村雨 / Murasame / Murasame -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -665,7 +665,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>80</Id> <!-- Ame-no-Murakumo / 天のむら雲 / Ama-no-Murakumo / Murakumo -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -673,7 +673,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>81</Id> <!-- Kiyomori / 清盛 / Kiyomori / Kiyomori -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -681,7 +681,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>82</Id> <!-- Muramasa / 村正 / Muramasa / Muramasa -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -689,7 +689,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>83</Id> <!-- Kiku-ichimonji / 菊一文字 / Kiku-ichimonji / Kikuichimonji -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -697,7 +697,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>84</Id> <!-- Masamune / 正宗 / Masamune / Masamune -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -705,7 +705,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>85</Id> <!-- Chirijiraden / 塵地螺鈿飾剣 / Chirijiraden-kazari / Chirijiraden -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -713,7 +713,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>86</Id> <!-- Seraph Song / 天使の詩 / Chant angélique / Engelslied -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -721,7 +721,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>87</Id> <!-- Life's Anthem / 命の詩 / Hymne à la vie / Hymne des Lebens -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -729,7 +729,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>88</Id> <!-- Rousing Melody / 応援歌 / Air entraînant / Heroische Melodie -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -737,7 +737,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>89</Id> <!-- Battle Chant / 戦いの詩 / Goualante guerrière / Schlachtlied -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -745,7 +745,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>90</Id> <!-- Magickal Refrain / 魔力の詩 / Ode mystique / Magischer Refrain -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -753,7 +753,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>91</Id> <!-- Nameless Song / 名もなき詩 / Marche sans nom / Okkultes Lied -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -761,7 +761,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>92</Id> <!-- Finale / ラストソング / Dernière rengaine / Letztes Lied -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -769,7 +769,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>93</Id> <!-- Witch Hunt / ウイッチハント / Mambo magique / Hexentanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -777,7 +777,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>94</Id> <!-- Mincing Minuet / ウイズナイブス / Danse des dagues / Messertanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -785,7 +785,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>95</Id> <!-- Slow Dance / スローダンス / Pavane languissante / Träger Tanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -793,7 +793,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>96</Id> <!-- Polka / ポルカポルカ / Polka / Polka -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -801,7 +801,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>97</Id> <!-- Heathen Frolic / アンフェイス / Salsa langoureuse / Schlangentanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -809,7 +809,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>98</Id> <!-- Forbidden Dance / ネイムレスダンス / Danse sans nom / Wandeltanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -817,7 +817,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>99</Id> <!-- Last Waltz / ラストダンス / Dernière danse / Letzter Tanz -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -825,7 +825,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>100</Id> <!-- Cyclone / 裏回し拳 / Revers circulaire / Wirbelwind -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -833,7 +833,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>101</Id> <!-- Pummel / 連続拳 / Poing furieux / Fausthagel -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -841,7 +841,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>102</Id> <!-- Aurablast / 波動撃 / Frappe ondoyante / Schockpunkt -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -849,7 +849,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>103</Id> <!-- Shockwave / 地烈斬 / Fêlure terrestre / Erdspaltung -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -857,7 +857,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>104</Id> <!-- Doom Fist / 秘孔拳 / Toucher mortel / Hauch des Todes -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -865,7 +865,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>105</Id> <!-- Purification / 気孔術 / Assainissement / Reinigung -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -873,7 +873,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>106</Id> <!-- Chakra / チャクラ / Chakra / Chakra -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -881,7 +881,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>107</Id> <!-- Revive / 蘇生 / Résurrection / Reanimation -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -889,7 +889,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>108</Id> <!-- Steal Gil / ギルを盗む / Vol de gils / Gil stehlen -->
-      <JPCost>10</JPCost>
+      <JPCost>5</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -897,7 +897,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>109</Id> <!-- Steal Heart / ハートを盗む / Vol de cœur / Herz stehlen -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -905,7 +905,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>110</Id> <!-- Steal Helm / 兜を盗む / Vol de couvre-chef / Helm stehlen -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -913,7 +913,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>111</Id> <!-- Steal Armor / 鎧を盗む / Vol d'armure / Rüstung stehlen -->
-      <JPCost>180</JPCost>
+      <JPCost>90</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -921,7 +921,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>112</Id> <!-- Steal Shield / 盾を盗む / Vol de bouclier / Schild stehlen -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -929,7 +929,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>113</Id> <!-- Steal Weapon / 武器を盗む / Vol d'arme / Waffe stehlen -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -937,7 +937,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>114</Id> <!-- Steal Accessory / アクセサリを盗む / Vol d'accessoire / Accessoire stehlen -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -945,7 +945,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>115</Id> <!-- Steal EXP / ＥＸＰを盗む / Vol d'expérience / ERF stehlen -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -953,7 +953,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>116</Id> <!-- Entice / 勧誘 / Débauchage / Anwerben -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -961,7 +961,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>117</Id> <!-- Stall / 説得 / Dissuasion / Überreden -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -969,7 +969,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>118</Id> <!-- Praise / ほめる / Flatterie / Lob -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -977,7 +977,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>119</Id> <!-- Intimidate / おどす / Menace / Einschüchtern -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -985,7 +985,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>120</Id> <!-- Preach / 説法 / Oraison / Predigt -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -993,7 +993,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>121</Id> <!-- Enlighten / 解法 / Réprobation / Aufklären -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1001,7 +1001,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>122</Id> <!-- Condemn / 死の予言 / Condamnation / Todesurteil -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1009,7 +1009,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>123</Id> <!-- Defraud / 商談 / Négociation / Feilschen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1017,7 +1017,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>124</Id> <!-- Insult / 悪口 / Provocation / Verhöhnen -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1025,7 +1025,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>125</Id> <!-- Mimic Darlavon / ダーラボンのまね / Imitation d'Indolent / Palavons Wiegenlied -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1033,7 +1033,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>126</Id> <!-- Sinkhole / 落とし穴 / Trappe / Fallgrube -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1041,7 +1041,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>127</Id> <!-- Torrent / 水塊 / Trombe d'eau / Wasserschwall -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1049,7 +1049,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>128</Id> <!-- Tanglevine / 蔦地獄 / Enfer de lierre / Schlingpflanze -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1057,7 +1057,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>129</Id> <!-- Contortion / 彫塑 / Gravure / Steinmetz -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1065,7 +1065,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>130</Id> <!-- Tremor / 局地地震 / Séisme localisé / Erschütterung -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1073,7 +1073,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>131</Id> <!-- Wind Slash / かまいたち / Rafale cinglante / Windsichel -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1081,7 +1081,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>132</Id> <!-- Will-o'-the-Wisp / 鬼火 / Feu follet / Lauffeuer -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1089,7 +1089,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>133</Id> <!-- Quicksand / 底なし沼 / Marais sans fond / Versumpfen -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1097,7 +1097,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>134</Id> <!-- Sandstorm / 砂嵐 / Tempête de sable / Sandsturm -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1105,7 +1105,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>135</Id> <!-- Snowstorm / 吹雪 / Blizzard hurlant / Schneesturm -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1113,7 +1113,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>136</Id> <!-- Wind Blast / 突風 / Bourrasque / Windstoß -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1121,7 +1121,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>137</Id> <!-- Magma Surge / 溶岩ボール / Sphère de lave / Lava-Ball -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1129,7 +1129,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>138</Id> <!-- Rend Helm / ヘッドブレイク / Brise-chef / Helmbruch -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1137,7 +1137,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>139</Id> <!-- Rend Armor / アーマーブレイク / Brise-armure / Panzerbruch -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1145,7 +1145,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>140</Id> <!-- Rend Shield / シールドブレイク / Brise-bouclier / Schildbruch -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1153,7 +1153,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>141</Id> <!-- Rend Weapon / ウェポンブレイク / Brise-arme / Waffenbruch -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1161,7 +1161,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>142</Id> <!-- Rend MP / マジックブレイク / Brise-magie / Magiebruch -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1169,7 +1169,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>143</Id> <!-- Rend Speed / スピードブレイク / Brise-vitesse / Tempobruch -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1177,7 +1177,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>144</Id> <!-- Rend Power / パワーブレイク / Brise-force / Kraftbruch -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1185,7 +1185,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>145</Id> <!-- Rend Magick / マインドブレイク / Brise-esprit / Geistbruch -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1193,7 +1193,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>146</Id> <!-- Focus / ためる / Accumulation / Kraftschub -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1201,7 +1201,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>147</Id> <!-- Rush / 体当たり / Bourrade / Rammen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1209,7 +1209,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>148</Id> <!-- Throw Stone / 投石 / Jet de pierre / Steinwurf -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1217,7 +1217,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>149</Id> <!-- Salve / 手当て / Premiers soins / Verarzten -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1225,7 +1225,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>150</Id> <!-- Tailwind / エール / Motivation / Anfeuern -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1233,7 +1233,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>151</Id> <!-- Steel / はげます / Encouragement / Ermutigen -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1249,7 +1249,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>153</Id> <!-- Shout / さけぶ / Hurlement / Kampfschrei -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1257,7 +1257,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>154</Id> <!-- Ultima / アルテマ / Ultima / Ultima -->
-      <JPCost>4000</JPCost>
+      <JPCost>2000</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1265,7 +1265,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>155</Id> <!-- Judgment Blade / 不動無明剣 / Ignorance indéfectible / Klinge des Urteils -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1273,7 +1273,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>156</Id> <!-- Cleansing Strike / 乱命割殺打 / Frappe purifiante / Reinigender Schlag -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1281,7 +1281,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>157</Id> <!-- Northswain's Strike / 北斗骨砕打 / Frappe de l'étoile polaire / Großer Bärenbrecher -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1289,7 +1289,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>158</Id> <!-- Hallowed Bolt / 無双稲妻突き / Éclair inimitable / Heiliger Blitz -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1297,7 +1297,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>159</Id> <!-- Divine Ruination / 聖光爆裂破 / Ire céleste / Heilige Verheerung -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1305,7 +1305,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>160</Id> <!-- Crush Armor / 強甲破点突き / Ravage de plastron / Panzerspalter -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1313,7 +1313,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>161</Id> <!-- Crush Helm / 星天爆撃打 / Destruction de crâne / Himmelssturz -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1321,7 +1321,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>162</Id> <!-- Crush Weapon / 冥界恐叫打 / Pulvérisation d'arme / Höllenschrei -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1329,7 +1329,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>163</Id> <!-- Crush Accessory / 咬撃氷狼破 / Broyage d'accessoire / Wolfsbiss -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1337,7 +1337,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>164</Id> <!-- Duskblade / 暗の剣 / Aspiration obscure / Dunkelschwert -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1345,7 +1345,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>165</Id> <!-- Shadowblade / 闇の剣 / Saignée obscure / Schattenklinge -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1353,7 +1353,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>166</Id> <!-- Unholy Darkness / ダークホーリー / Miracle sombre / Unheiliges Dunkel -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1385,7 +1385,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>170</Id> <!-- Ashura / 阿修羅 / Brasier empyréen / Ashura -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1393,7 +1393,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>171</Id> <!-- Adamantine Blade / 金剛七剣 / Vortex adamantin / Adamant-Klinge -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1401,7 +1401,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>172</Id> <!-- Maelstrom / 水磨龍穴 / Maelström draconique / Wasserdrache -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1409,7 +1409,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>173</Id> <!-- Celestial Void / 大虚空蔵 / Vacuité céleste / Kosmische Leere -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1417,7 +1417,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>174</Id> <!-- Divinity / 天魔鬼神 / Entités telluriques / Divinität -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1433,7 +1433,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>176</Id> <!-- Nether Ashura / 裏阿修羅 / Exo-Brasier empyréen / Aruhsa -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1441,7 +1441,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>177</Id> <!-- Nether Blade / 裏金剛七剣 / Exo-Vortex adamantin / Danamat-Klinge -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1449,7 +1449,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>178</Id> <!-- Nether Maelstrom / 裏水磨龍穴 / Exo-Maelström draconique / Feuerdrache -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1457,7 +1457,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>179</Id> <!-- Corporeal Void / 裏大虚空蔵 / Exo-Vacuité céleste / Irdische Leere -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1465,7 +1465,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>180</Id> <!-- Impiety / 裏天魔鬼神 / Exo-Entités telluriques / Impietät -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1497,7 +1497,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>184</Id>
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1729,7 +1729,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>213</Id> <!-- Leg Shot / 足を狙う / Viser les jambes / Beinschuss -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1737,7 +1737,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>214</Id> <!-- Arm Shot / 腕を狙う / Viser les bras / Armschuss -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1745,7 +1745,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>215</Id> <!-- Seal Evil / 邪心封印 / Claustration impie / Siegel des Bösen -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1753,7 +1753,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>216</Id> <!-- Meltdown / メルトン / Fusion / Schmelze -->
-      <JPCost>4000</JPCost>
+      <JPCost>2000</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1761,7 +1761,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>217</Id> <!-- Tornado / トルネド / Tornade / Tornado -->
-      <JPCost>4000</JPCost>
+      <JPCost>2000</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1769,7 +1769,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>218</Id> <!-- Quake / クエイク / Séisme / Beben -->
-      <JPCost>4000</JPCost>
+      <JPCost>2000</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1777,7 +1777,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>219</Id>
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1785,7 +1785,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>220</Id>
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1897,7 +1897,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>234</Id> <!-- Blind / ブライン / Cécité / Blind -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1905,7 +1905,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>235</Id> <!-- Syphon / アスピル / Aspiration / Subspirit -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>62</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1913,7 +1913,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>236</Id> <!-- Drain / ドレイン / Saignée / Subvita -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>64</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1921,7 +1921,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>237</Id> <!-- Faith / フェイス / Conversion / Ener -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>66</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1929,7 +1929,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>238</Id> <!-- Doubt / イノセン / Reniement / Zweifel -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>68</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1937,7 +1937,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>239</Id> <!-- Zombie / ゾンビー / Zombie / Zombie -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1945,7 +1945,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>240</Id> <!-- Silence / サイレス / Silence / Stumm -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>72</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1953,7 +1953,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>241</Id> <!-- Berserk / バーサク / Furie / Tobsucht -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>74</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1961,7 +1961,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>242</Id> <!-- Chicken / チキン / Poule mouillée / Feige -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>76</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1969,7 +1969,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>243</Id> <!-- Confuse / コンフュ / Confusion / Konfus -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>78</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1977,7 +1977,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>244</Id> <!-- Dispel / デスペル / Dissipation / Bann -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1985,7 +1985,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>245</Id> <!-- Disable / ドンアク / Inaction / Inakt -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>82</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -1993,7 +1993,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>246</Id> <!-- Sleep / スリプル / Sommeil / Schlaf -->
-      <JPCost>70</JPCost>
+      <JPCost>35</JPCost>
       <ChanceToLearn>84</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2001,7 +2001,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>247</Id> <!-- Break / ブレイク / Fossile / Steinschlag -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>86</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2033,7 +2033,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>251</Id> <!-- Dragon's Charm / 竜ならし / Domptage draconique / Drachenzähmer -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2041,7 +2041,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>252</Id> <!-- Dragon's Gift / 竜介抱 / Guérison draconique / Drachenheil -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2049,7 +2049,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>253</Id> <!-- Dragon's Might / 竜パワーアップ / Vigueur draconique / Drachenkraft -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2057,7 +2057,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>254</Id> <!-- Dragon's Speed / 竜クイック / Vivacité draconique / Drachenzug -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2065,7 +2065,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>255</Id> <!-- Holy Breath / ホーリーブレス / Souffle sacré / Heiliger Atem -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2073,7 +2073,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>256</Id> <!-- Vengeance / ショック！ / Intimidation / Revanche -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2081,7 +2081,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>257</Id> <!-- Braver / ブレイバー / Âme brave / Mutangriff -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2089,7 +2089,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>258</Id> <!-- Cross Slash / 凶斬り / Taillade croisée / Kreuzschlag -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2097,7 +2097,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>259</Id> <!-- Blade Burst / 破晄撃 / Lame irradiante / Klingenstrahl -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2105,7 +2105,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>260</Id> <!-- Ascension / クライムハザード / Péril ascendant / Atomisator -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2113,7 +2113,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>261</Id> <!-- Meteorain / メテオレイン / Pluie de météores / Meteoregen -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2121,7 +2121,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>262</Id> <!-- Finishing Touch / 画龍点睛 / Finition tournoyante / Letzter Schliff -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2129,7 +2129,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>263</Id> <!-- Omnislash / 裏超究武神覇斬 / Omnifrappe / Omnischlag -->
-      <JPCost>480</JPCost>
+      <JPCost>240</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2137,7 +2137,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>264</Id> <!-- Cherry Blossom / 桜華狂咲 / Efflorescence fatale / Blütensturm -->
-      <JPCost>1000</JPCost>
+      <JPCost>500</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2881,7 +2881,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>357</Id>
-      <JPCost>480</JPCost>
+      <JPCost>240</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2889,7 +2889,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>358</Id>
-      <JPCost>480</JPCost>
+      <JPCost>240</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2905,7 +2905,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>360</Id>
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2913,7 +2913,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>361</Id>
-      <JPCost>180</JPCost>
+      <JPCost>90</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2921,7 +2921,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>362</Id>
-      <JPCost>220</JPCost>
+      <JPCost>110</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2929,7 +2929,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>363</Id>
-      <JPCost>180</JPCost>
+      <JPCost>90</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2937,7 +2937,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>364</Id>
-      <JPCost>300</JPCost>
+      <JPCost>150</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2945,7 +2945,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>365</Id>
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2953,7 +2953,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>366</Id>
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
@@ -2969,7 +2969,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>368</Id> <!-- Potion / ポーション / Potion / Heiltrank -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -2977,7 +2977,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>369</Id> <!-- High Potion / ハイポーション / Super-potion / Supertrank -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -2985,7 +2985,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>370</Id> <!-- X-Potion / エクスポーション / Maxi-potion / Übertrank -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -2993,7 +2993,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>371</Id> <!-- Ether / エーテル / Éther / Äther -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>25</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3001,7 +3001,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>372</Id> <!-- High Ether / ハイエーテル / Super-éther / Super-Äther -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3009,7 +3009,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>373</Id> <!-- Elixir / エリクサー / Élixir / Elixier -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>5</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3017,7 +3017,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>374</Id> <!-- Antidote / 毒消し / Antidote / Gegengift -->
-      <JPCost>30</JPCost>
+      <JPCost>15</JPCost>
       <ChanceToLearn>65</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3025,7 +3025,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>375</Id> <!-- Eye Drops / 目薬 / Collyre / Augentropfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>35</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3033,7 +3033,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>376</Id> <!-- Echo Herbs / やまびこ草 / Herbe d'écho / Echokraut -->
-      <JPCost>50</JPCost>
+      <JPCost>25</JPCost>
       <ChanceToLearn>35</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3041,7 +3041,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>377</Id> <!-- Maiden's Kiss / 乙女のキッス / Baiser de jouvencelle / Jungfernkuss -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>35</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3049,7 +3049,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>378</Id> <!-- Gold Needle / 金の針 / Épingle d'or / Goldnadel -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>35</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3057,7 +3057,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>379</Id> <!-- Holy Water / 聖水 / Eau bénite / Weihwasser -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3065,7 +3065,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>380</Id> <!-- Remedy / 万能薬 / Remède / Allheilmittel -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3073,7 +3073,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>381</Id> <!-- Phoenix Down / フェニックスの尾 / Queue de phénix / Phönixfeder -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Item</AbilityType>
@@ -3081,7 +3081,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>382</Id> <!-- Throw Shuriken / 手裏剣投げ / Lancer de shuriken / Shuriken werfen -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>90</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3089,7 +3089,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>383</Id> <!-- Throw Daggers / 短剣投げ / Lancer de poignard / Dolch werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3097,7 +3097,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>384</Id> <!-- Throw Swords / 剣投げ / Lancer d'épée / Schwert werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3105,7 +3105,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>385</Id> <!-- Throw Flails / 連接棍投げ / Lancer de fléau / Flegel werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3113,7 +3113,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>386</Id> <!-- Throw Katana / 刀投げ / Lancer de katana de samouraï / Katana werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3121,7 +3121,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>387</Id> <!-- Throw Ninja Blades / 忍者刀投げ / Lancer de katana de ninja / Ninja-Schwert werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3129,7 +3129,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>388</Id> <!-- Throw Axes / 斧投げ / Lancer de hache / Axt werfen -->
-      <JPCost>50</JPCost>
+      <JPCost>25</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3137,7 +3137,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>389</Id> <!-- Throw Polearms / 槍投げ / Lancer d'arme d'hast / Speer werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3145,7 +3145,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>390</Id> <!-- Throw Poles / 棒投げ / Lancer de bâton de combat / Stab werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3153,7 +3153,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>391</Id> <!-- Throw Knight's Swords / 騎士剣投げ / Lancer de grande épée / Ritterschwert werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3161,7 +3161,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>392</Id> <!-- Throw Books / 辞書投げ / Lancer d'encyclopédie / Buch werfen -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3169,7 +3169,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>393</Id> <!-- Throw Bombs / 玉投げ / Lancer de projectile / Wurfgeschoss werfen -->
-      <JPCost>30</JPCost>
+      <JPCost>15</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Throwing</AbilityType>
@@ -3177,7 +3177,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>394</Id> <!-- Horizontal Jump +1 / ジャンプ距離＋１ / Saut horizontal +1 / Sprung-Reichweite +1 -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3185,7 +3185,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>395</Id> <!-- Horizontal Jump +2 / ジャンプ距離＋２ / Saut horizontal +2 / Sprung-Reichweite +2 -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3193,7 +3193,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>396</Id> <!-- Horizontal Jump +3 / ジャンプ距離＋３ / Saut horizontal +3 / Sprung-Reichweite +3 -->
-      <JPCost>220</JPCost>
+      <JPCost>110</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3201,7 +3201,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>397</Id> <!-- Horizontal Jump +4 / ジャンプ距離＋４ / Saut horizontal +4 / Sprung-Reichweite +4 -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3209,38 +3209,6 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>398</Id> <!-- Horizontal Jump +7 / ジャンプ距離＋７ / Saut horizontal +7 / Sprung-Reichweite +7 -->
-      <JPCost>440</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Jumping</AbilityType>
-      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>399</Id> <!-- Vertical Jump ±2 / ジャンプ高低±２ / Saut vertical ±2 / Sprung-Höhe ±2 -->
-      <JPCost>40</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Jumping</AbilityType>
-      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>400</Id> <!-- Vertical Jump ±3 / ジャンプ高低±３ / Saut vertical ±3 / Sprung-Höhe ±3 -->
-      <JPCost>100</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Jumping</AbilityType>
-      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>401</Id> <!-- Vertical Jump ±4 / ジャンプ高低±４ / Saut vertical ±4 / Sprung-Höhe ±4 -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Jumping</AbilityType>
-      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>402</Id> <!-- Vertical Jump ±5 / ジャンプ高低±５ / Saut vertical ±5 / Sprung-Höhe ±5 -->
       <JPCost>220</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3248,8 +3216,40 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
     </Ability>
     <Ability>
+      <Id>399</Id> <!-- Vertical Jump ±2 / ジャンプ高低±２ / Saut vertical ±2 / Sprung-Höhe ±2 -->
+      <JPCost>20</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Jumping</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>400</Id> <!-- Vertical Jump ±3 / ジャンプ高低±３ / Saut vertical ±3 / Sprung-Höhe ±3 -->
+      <JPCost>50</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Jumping</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>401</Id> <!-- Vertical Jump ±4 / ジャンプ高低±４ / Saut vertical ±4 / Sprung-Höhe ±4 -->
+      <JPCost>80</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Jumping</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>402</Id> <!-- Vertical Jump ±5 / ジャンプ高低±５ / Saut vertical ±5 / Sprung-Höhe ±5 -->
+      <JPCost>110</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Jumping</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, EvadeWithMotion, UsableByAI</AIBehaviorFlags>
+    </Ability>
+    <Ability>
       <Id>403</Id> <!-- Vertical Jump ±6 / ジャンプ高低±６ / Saut vertical ±6 / Sprung-Höhe ±6 -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3257,7 +3257,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>404</Id> <!-- Vertical Jump ±7 / ジャンプ高低±７ / Saut vertical ±7 / Sprung-Höhe ±7 -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3265,7 +3265,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>405</Id> <!-- Vertical Jump ±8 / ジャンプ高低±８ / Saut vertical ±8 / Sprung-Höhe ±8 -->
-      <JPCost>600</JPCost>
+      <JPCost>300</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Jumping</AbilityType>
@@ -3273,7 +3273,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>406</Id> <!-- Aim +1 / チャージ＋１ / Charge +1 / Zielen +1 -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3281,7 +3281,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>407</Id> <!-- Aim +2 / チャージ＋２ / Charge +2 / Zielen +2 -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3289,7 +3289,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>408</Id> <!-- Aim +3 / チャージ＋３ / Charge +3 / Zielen +3 -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3297,7 +3297,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>409</Id> <!-- Aim +4 / チャージ＋４ / Charge +4 / Zielen +4 -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3305,7 +3305,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>410</Id> <!-- Aim +5 / チャージ＋５ / Charge +5 / Zielen +5 -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3313,7 +3313,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>411</Id> <!-- Aim +7 / チャージ＋７ / Charge +7 / Zielen +7 -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3321,7 +3321,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>412</Id> <!-- Aim +10 / チャージ＋１０ / Charge +10 / Zielen +10 -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3329,7 +3329,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>413</Id> <!-- Aim +20 / チャージ＋２０ / Charge +20 / Zielen +20 -->
-      <JPCost>480</JPCost>
+      <JPCost>240</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Aim</AbilityType>
@@ -3337,7 +3337,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>414</Id> <!-- Target CT / ＣＴを標的に / Temps de charge / WZ anvisieren -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3345,7 +3345,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>415</Id> <!-- Target Level / レベルを標的に / Niveau / Stufe anvisieren -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3353,7 +3353,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>416</Id> <!-- Target EXP / ＥＸＰを標的に / Expérience / ERF anvisieren -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3361,7 +3361,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>417</Id> <!-- Target Elevation / 高さを標的に / Hauteur / Höhe anvisieren -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3369,7 +3369,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>418</Id> <!-- Prime / 素数なら発動 / Nombre premier / Bei Primzahl auslösen -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3377,7 +3377,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>419</Id> <!-- Multiple of 5 / ５の倍数なら発動 / Multiple de 5 / Bei 5er-Multiplikator auslösen -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3385,7 +3385,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>420</Id> <!-- Multiple of 4 / ４の倍数なら発動 / Multiple de 4 / Bei 4er-Multiplikator auslösen -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>65</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3393,7 +3393,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>421</Id> <!-- Multiple of 3 / ３の倍数なら発動 / Multiple de 3 / Bei 3er-Multiplikator auslösen -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>70</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Math</AbilityType>
@@ -3401,7 +3401,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>422</Id> <!-- Strength Surge / 反動物理攻撃アップ / Gain d'attaque / Revanche -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3409,7 +3409,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>423</Id> <!-- Magick Surge / 反動魔法攻撃アップ / Gain d'attaque magique / Magie-Vergeltung -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3417,7 +3417,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>424</Id> <!-- Speed Surge / 反動スピードアップ / Gain de vitesse / Adrenalinschub -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3425,7 +3425,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>425</Id> <!-- Vanish / 潜伏 / Dissimulation / Verbergen -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3433,7 +3433,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>426</Id> <!-- Vigilance / 警戒 / Vigilance / Wachsamkeit -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3441,7 +3441,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>427</Id> <!-- Dragonheart / 竜の魂 / Cœur de dragon / Drachenherz -->
-      <JPCost>240</JPCost>
+      <JPCost>120</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3449,7 +3449,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>428</Id> <!-- Regenerate / リジェネーター / Régénération / Auto-Regena -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3457,7 +3457,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>429</Id> <!-- Bravery Surge / 反動Braveアップ / Gain de bravoure / Mut-Bonus -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3465,7 +3465,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>430</Id> <!-- Faith Surge / 反動Faithアップ / Gain de foi / Glaubens-Bonus -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3473,7 +3473,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>431</Id> <!-- Critical: Recover HP / 瀕死ＨＰ回復 / Vitalité du désespoir / Kritische LP-Rettung -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3481,7 +3481,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>432</Id> <!-- Critical: Recover MP / 瀕死ＭＰ回復 / Esprit du désespoir / Kritische MP-Rettung -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3489,7 +3489,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>433</Id> <!-- Critical: Quick / 瀕死クイック / Célérité du désespoir / Zuginitiative -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3497,7 +3497,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>434</Id> <!-- Bonecrusher / 肉斬骨断 / Casse-cou / Knochenbrecher -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3505,7 +3505,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>435</Id> <!-- Magick Counter / 魔法返し / Riposte magique / Magiespiegel -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3513,7 +3513,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>436</Id> <!-- Counter Tackle / 反撃タックル / Contre-plaquage / Gegenattacke -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3521,7 +3521,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>437</Id> <!-- Nature's Wrath / 風水返し / Revanche naturelle / Naturgewalt -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3529,7 +3529,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>438</Id> <!-- Absorb MP / 使用ＭＰ吸収 / Absorption de PM / MP absorbieren -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3537,7 +3537,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>439</Id> <!-- Gil Snapper / ギルガメの心 / Cœur de gilkhélone / Gilkröten-Finger -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3545,7 +3545,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>440</Id> <!-- MARKED FOR DELETION - REPORT IF DISPLAYED Reflect / A440 / Miroir / A440 -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3553,7 +3553,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>441</Id> <!-- Auto-Potion / オートポーション / Auto-potion / Auto-Heiltrank -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3561,7 +3561,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>442</Id> <!-- Counter / カウンター / Riposte / Konter -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>80</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3569,7 +3569,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>443</Id>
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3577,7 +3577,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>444</Id> <!-- Cup of Life / 回復おすそわけ / Redistribution vitale / Lebensspende -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3585,7 +3585,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>445</Id> <!-- Mana Shield / ＭＰすり替え / Égide magique / MP-Kompensation -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3593,7 +3593,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>446</Id> <!-- Soulbind / ダメージ返し / Partage de dégâts / Schaden verteilen -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3601,7 +3601,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>447</Id> <!-- Parry / 装備武器ガード / Parade à l'arme / Parieren -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>60</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3609,7 +3609,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>448</Id> <!-- Earplugs / 耳をふさぐ / Sourde oreille / Ohrstopfen -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>40</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3617,7 +3617,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>449</Id> <!-- Reflexes / 見切る / Anticipation / Reflex -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3625,7 +3625,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>450</Id> <!-- Sticky Fingers / キャッチ / Interception / Fangen -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3633,7 +3633,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>451</Id> <!-- Shirahadori / 白刃取り / Blocage hardi / Shirahadori -->
-      <JPCost>280</JPCost>
+      <JPCost>140</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3641,7 +3641,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>452</Id> <!-- Archer's Bane / 矢かわし / Pare-flèches / Pfeiltänzer -->
-      <JPCost>180</JPCost>
+      <JPCost>90</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3649,7 +3649,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>453</Id> <!-- First Strike / ハメドる / Contre-offensive / Erstschlag -->
-      <JPCost>520</JPCost>
+      <JPCost>260</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Reaction</AbilityType>
@@ -3657,7 +3657,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>454</Id> <!-- Equip Heavy Armor / 兜鎧装備 / Maîtrise des armures / Schwere Rüstung -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3665,7 +3665,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>455</Id> <!-- Equip Shields / 盾装備 / Maîtrise du bouclier / Schild ausrüsten -->
-      <JPCost>100</JPCost>
+      <JPCost>50</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3673,7 +3673,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>456</Id> <!-- Equip Swords / 剣装備 / Maîtrise de l'épée / Schwert ausrüsten -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3681,7 +3681,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>457</Id> <!-- Equip Katana / 刀装備 / Maîtrise du katana / Katana ausrüsten -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3689,7 +3689,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>458</Id> <!-- Equip Crossbows / 自動弓装備 / Maîtrise de l'arbalète / Armbrust ausrüsten -->
-      <JPCost>140</JPCost>
+      <JPCost>70</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3697,7 +3697,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>459</Id> <!-- Equip Polearms / 槍装備 / Maîtrise de l'hast / Speer ausrüsten -->
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>10</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3705,7 +3705,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>460</Id> <!-- Equip Axes / 斧装備 / Maîtrise de la hache / Axt ausrüsten -->
-      <JPCost>70</JPCost>
+      <JPCost>35</JPCost>
       <ChanceToLearn>5</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3713,7 +3713,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>461</Id> <!-- Equip Guns / 銃装備 / Maîtrise de l'artillerie / Gewehrriemen -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>25</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3721,70 +3721,6 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>462</Id> <!-- Halve MP / 消費ＭＰ半減 / Économie de PM / MP halbieren -->
-      <JPCost>400</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>463</Id> <!-- JP Boost / 獲得ＪＰアップ / Bonus de PC / JP-Bonus -->
-      <JPCost>1000</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>464</Id> <!-- EXP Boost / 獲得ＥＸＰアップ / Bonus d'expérience / ERF-Bonus -->
-      <JPCost>140</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>465</Id> <!-- Attack Boost / 物理攻撃アップ / Bonus d'attaque / Angriffsbonus -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>466</Id> <!-- Defense Boost / 物理防御アップ / Bonus de défense / Abwehrbonus -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>467</Id> <!-- Magick Boost / 魔法攻撃アップ / Bonus d'attaque magique / Magie-Angriffsbonus -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>468</Id> <!-- Magick Defense Boost / 魔法防御アップ / Bonus de défense magique / Magie-Abwehrbonus -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>469</Id> <!-- Concentration / 精神統一 / Application / Kontemplation -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Support</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>470</Id> <!-- Tame / 調教 / Asservissement / Dressur -->
       <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3792,7 +3728,23 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
-      <Id>471</Id> <!-- Poach / 密猟 / Braconnage / Wildern -->
+      <Id>463</Id> <!-- JP Boost / 獲得ＪＰアップ / Bonus de PC / JP-Bonus -->
+      <JPCost>500</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>464</Id> <!-- EXP Boost / 獲得ＥＸＰアップ / Bonus d'expérience / ERF-Bonus -->
+      <JPCost>70</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>465</Id> <!-- Attack Boost / 物理攻撃アップ / Bonus d'attaque / Angriffsbonus -->
       <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3800,7 +3752,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
-      <Id>472</Id> <!-- Brawler / 格闘 / Martialiste / Faustkämpfer -->
+      <Id>466</Id> <!-- Defense Boost / 物理防御アップ / Bonus de défense / Abwehrbonus -->
       <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3808,23 +3760,31 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
-      <Id>473</Id> <!-- Beast Tongue / モンスター語 / Monstrophonie / Tierflüsterer -->
-      <JPCost>40</JPCost>
+      <Id>467</Id> <!-- Magick Boost / 魔法攻撃アップ / Bonus d'attaque magique / Magie-Angriffsbonus -->
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
-      <Id>474</Id> <!-- Throw Items / アイテム投げ / Lancer d'objet / Gegenstände werfen -->
-      <JPCost>140</JPCost>
+      <Id>468</Id> <!-- Magick Defense Boost / 魔法防御アップ / Bonus de défense magique / Magie-Abwehrbonus -->
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
-      <Id>475</Id> <!-- Safeguard / メンテナンス / Résilience / Wartung -->
+      <Id>469</Id> <!-- Concentration / 精神統一 / Application / Kontemplation -->
+      <JPCost>80</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>470</Id> <!-- Tame / 調教 / Asservissement / Dressur -->
       <JPCost>100</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3832,8 +3792,48 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
+      <Id>471</Id> <!-- Poach / 密猟 / Braconnage / Wildern -->
+      <JPCost>40</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>472</Id> <!-- Brawler / 格闘 / Martialiste / Faustkämpfer -->
+      <JPCost>40</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>473</Id> <!-- Beast Tongue / モンスター語 / Monstrophonie / Tierflüsterer -->
+      <JPCost>20</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>474</Id> <!-- Throw Items / アイテム投げ / Lancer d'objet / Gegenstände werfen -->
+      <JPCost>70</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>475</Id> <!-- Safeguard / メンテナンス / Résilience / Wartung -->
+      <JPCost>50</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Support</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
       <Id>476</Id> <!-- Doublehand / 両手持ち / Deux mains / Beidhändig -->
-      <JPCost>360</JPCost>
+      <JPCost>180</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3841,7 +3841,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>477</Id> <!-- Dual Wield / 二刀流 / Duo d'armes / Doppelschwert -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3849,7 +3849,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>478</Id> <!-- Beastmaster / モンスター使い / Symbiose animale / Dompteur -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>55</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3857,7 +3857,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>479</Id> <!-- Evasive Stance / 回避構え / Qui-vive / Bereitschaft -->
-      <JPCost>20</JPCost>
+      <JPCost>10</JPCost>
       <ChanceToLearn>35</ChanceToLearn>
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Support</AbilityType>
@@ -3881,7 +3881,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>482</Id> <!-- Swiftspell / 魔法詠唱短縮 / Charge accélérée / Schnell aufladen -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3889,7 +3889,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>483</Id> <!-- A483 / A483 / Charge annulée / A483 -->
-      <JPCost>1200</JPCost>
+      <JPCost>600</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3897,7 +3897,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>484</Id>
-      <JPCost>800</JPCost>
+      <JPCost>400</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3905,7 +3905,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>485</Id>
-      <JPCost>160</JPCost>
+      <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Support</AbilityType>
@@ -3913,7 +3913,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>486</Id> <!-- Movement +1 / 移動＋１ / Mobilité +1 / Bewegung +1 -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3921,7 +3921,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>487</Id> <!-- Movement +2 / 移動＋２ / Mobilité +2 / Bewegung +2 -->
-      <JPCost>230</JPCost>
+      <JPCost>115</JPCost>
       <ChanceToLearn>42</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3929,7 +3929,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>488</Id> <!-- Movement +3 / 移動＋３ / Mobilité +3 / Bewegung +3 -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>32</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3937,7 +3937,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>489</Id> <!-- Jump +1 / 跳躍＋１ / Saut +1 / Sprung +1 -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3945,7 +3945,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>490</Id> <!-- Jump +2 / 跳躍＋２ / Saut +2 / Sprung +2 -->
-      <JPCost>200</JPCost>
+      <JPCost>100</JPCost>
       <ChanceToLearn>45</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3953,7 +3953,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>491</Id> <!-- Jump +3 / 跳躍＋３ / Saut +3 / Sprung +3 -->
-      <JPCost>400</JPCost>
+      <JPCost>200</JPCost>
       <ChanceToLearn>32</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -3961,22 +3961,6 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>492</Id> <!-- Ignore Elevation / 高低差無視移動 / Insensible au dénivelé / Höhe ignorieren -->
-      <JPCost>280</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Movement</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>493</Id> <!-- Lifefont / ＨＰ回復移動 / Marche vivifiante / Heilgang -->
-      <JPCost>120</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Movement</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>494</Id> <!-- Manafont / ＭＰ回復移動 / Marche rassérénante / Magiegang -->
       <JPCost>140</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -3984,23 +3968,23 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
+      <Id>493</Id> <!-- Lifefont / ＨＰ回復移動 / Marche vivifiante / Heilgang -->
+      <JPCost>60</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Movement</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>494</Id> <!-- Manafont / ＭＰ回復移動 / Marche rassérénante / Magiegang -->
+      <JPCost>70</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Movement</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
       <Id>495</Id> <!-- Accrue EXP / ＥＸＰ獲得移動 / EXP en marchant / ERF erlaufen -->
-      <JPCost>160</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Movement</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>496</Id> <!-- Accrue JP / ＪＰ獲得移動 / PC en marchant / JP erlaufen -->
-      <JPCost>800</JPCost>
-      <ChanceToLearn>50</ChanceToLearn>
-      <Flags>0</Flags>
-      <AbilityType>Movement</AbilityType>
-      <AIBehaviorFlags>0</AIBehaviorFlags>
-    </Ability>
-    <Ability>
-      <Id>497</Id> <!-- Cannot Enter Water / 水進入不可 / Hydrophobie / Nichtschwimmer -->
       <JPCost>80</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
@@ -4008,8 +3992,24 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AIBehaviorFlags>0</AIBehaviorFlags>
     </Ability>
     <Ability>
+      <Id>496</Id> <!-- Accrue JP / ＪＰ獲得移動 / PC en marchant / JP erlaufen -->
+      <JPCost>400</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Movement</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
+      <Id>497</Id> <!-- Cannot Enter Water / 水進入不可 / Hydrophobie / Nichtschwimmer -->
+      <JPCost>40</JPCost>
+      <ChanceToLearn>50</ChanceToLearn>
+      <Flags>0</Flags>
+      <AbilityType>Movement</AbilityType>
+      <AIBehaviorFlags>0</AIBehaviorFlags>
+    </Ability>
+    <Ability>
       <Id>498</Id> <!-- Teleport / テレポ / Téléportation / Teleport -->
-      <JPCost>260</JPCost>
+      <JPCost>130</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4025,7 +4025,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>500</Id> <!-- Ignore Weather / 天候無視移動 / Insensible à la météo / Wetter ignorieren -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4033,7 +4033,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>501</Id> <!-- Ignore Terrain / 地形無視移動 / Insensible au terrain / Gelände ignorieren -->
-      <JPCost>90</JPCost>
+      <JPCost>45</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4041,7 +4041,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>502</Id> <!-- Waterwalking / 水上移動 / Marche sur l'eau / Wasserläufer -->
-      <JPCost>170</JPCost>
+      <JPCost>85</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4049,7 +4049,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>503</Id> <!-- Swim / 水面移動 / Marche dans l'eau / Seepferd -->
-      <JPCost>120</JPCost>
+      <JPCost>60</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4057,7 +4057,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>504</Id> <!-- Lavawalking / 溶岩上移動 / Marche sur la lave / Lavagang -->
-      <JPCost>60</JPCost>
+      <JPCost>30</JPCost>
       <ChanceToLearn>30</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4065,7 +4065,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>505</Id> <!-- Waterbreathing / 水中移動 / Hydromobilité / Wasseratmung -->
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4073,7 +4073,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>506</Id> <!-- Levitate / 浮遊移動 / Lévitation constante / Levitas-Gang -->
-      <JPCost>220</JPCost>
+      <JPCost>110</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4081,7 +4081,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>507</Id> <!-- Fly / 飛行移動 / Marche aérienne / Fliegen -->
-      <JPCost>2000</JPCost>
+      <JPCost>1000</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4089,7 +4089,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>508</Id> <!-- A508 / A508 / Pas de loup / A508 -->
-      <JPCost>320</JPCost>
+      <JPCost>160</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4097,7 +4097,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>509</Id> <!-- Treasure Hunter / アイテム発見移動 / Chasse au trésor / Schatzsucher -->
-      <JPCost>40</JPCost>
+      <JPCost>20</JPCost>
       <ChanceToLearn>75</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>Movement</AbilityType>
@@ -4105,7 +4105,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>510</Id>
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>None</AbilityType>
@@ -4113,7 +4113,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>511</Id>
-      <JPCost>80</JPCost>
+      <JPCost>40</JPCost>
       <ChanceToLearn>50</ChanceToLearn>
       <Flags>0</Flags>
       <AbilityType>None</AbilityType>

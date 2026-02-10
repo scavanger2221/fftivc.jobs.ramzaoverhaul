@@ -3,7 +3,9 @@
 <!--
 Ramza Progressive Buff Mod - Job Abilities
 Progressive skillsets for Chapter 1, 2-3, and 4
-Ultima (154) stays in same position as vanilla, shows as ??? until learned via hit
+Ensuring progressive learnable skills (Steel, Shadow/Dusk, Shout) are added to the END 
+of the list to prevent unlearning or UI shifting issues.
+Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
 -->
 
 <JobCommandTable>
@@ -31,7 +33,7 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
       <AbilityId15>0</AbilityId15>
-      <AbilityId16>0</AbilityId16>
+      <AbilityId16>154</AbilityId16>  <!-- Ultima (Slot 16) -->
       <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
       <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
       <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
@@ -42,7 +44,6 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
 
     <!-- ==================== CHAPTER 2-3: VETERAN MERCENARY ==================== -->
     <!-- Mettle Chapter 2-3 (Id 26) - Expanded toolkit with drain abilities -->
-    <!-- Ultima at AbilityId8 shows as ??? (not learnable yet) -->
     <JobCommand>
       <Id>26</Id>
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
@@ -53,16 +54,16 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId4>149</AbilityId4>
       <AbilityId5>150</AbilityId5>
       <AbilityId6>152</AbilityId6>
-      <AbilityId7>151</AbilityId7>   <!-- Steel -->
-      <AbilityId8>154</AbilityId8>   <!-- Ultima (???, learn on hit in Ch 4) -->
-      <AbilityId9>164</AbilityId9>   <!-- Duskblade (Drain MP) -->
-      <AbilityId10>165</AbilityId10>   <!-- Shadowblade (Drain HP) -->
+      <AbilityId7>151</AbilityId7>   <!-- Steel (Added in Ch 2) -->
+      <AbilityId8>165</AbilityId8>   <!-- Shadowblade (Added in Ch 2) -->
+      <AbilityId9>164</AbilityId9>   <!-- Duskblade (Added in Ch 2) -->
+      <AbilityId10>0</AbilityId10>
       <AbilityId11>0</AbilityId11>
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
       <AbilityId15>0</AbilityId15>
-      <AbilityId16>0</AbilityId16>
+      <AbilityId16>154</AbilityId16>  <!-- Ultima (Slot 16) -->
       <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
       <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
       <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
@@ -82,16 +83,16 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId4>149</AbilityId4>
       <AbilityId5>150</AbilityId5>
       <AbilityId6>152</AbilityId6>
-      <AbilityId7>151</AbilityId7>
-      <AbilityId8>153</AbilityId8>   <!-- Shout -->
-      <AbilityId9>154</AbilityId9>   <!-- Ultima (learn on hit) -->
-      <AbilityId10>164</AbilityId10>   <!-- Duskblade (Drain MP) -->
-      <AbilityId11>165</AbilityId11>   <!-- Shadowblade (Drain HP) -->
+      <AbilityId7>151</AbilityId7>   <!-- Steel (Ch 2) -->
+      <AbilityId8>165</AbilityId8>   <!-- Shadowblade (Ch 2) -->
+      <AbilityId9>164</AbilityId9>   <!-- Duskblade (Ch 2) -->
+      <AbilityId10>153</AbilityId10>  <!-- Shout (Added in Ch 4) -->
+      <AbilityId11>0</AbilityId11>
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
       <AbilityId15>0</AbilityId15>
-      <AbilityId16>0</AbilityId16>
+      <AbilityId16>154</AbilityId16>  <!-- Ultima (Slot 16) -->
       <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
       <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
       <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
