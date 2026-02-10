@@ -2,7 +2,7 @@
 
 <!--
 Ramza Progressive Buff Mod - Job Abilities
-Progressive skillsets for Chapter 2, 3, and 4
+Progressive skillsets for Chapter 1, 2-3, and 4
 Ultima (154) stays in same position as vanilla, shows as ??? until learned via hit
 -->
 
@@ -10,9 +10,8 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
   <Version>1</Version>
   <Entries>
 
-    <!-- ==================== CHAPTER 2: FUNDAMENTS + UTILITY ==================== -->
-    <!-- Mettle Chapter 2 (Id 25) - Basic hero toolkit -->
-    <!-- Ultima at AbilityId7 shows as ??? (not learnable yet) -->
+    <!-- ==================== CHAPTER 1: BASIC TRAINEE ==================== -->
+    <!-- Mettle Chapter 1 (Id 25) - Basic fundamentals only -->
     <JobCommand>
       <Id>25</Id>
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
@@ -23,7 +22,7 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId4>149</AbilityId4>   <!-- Salve -->
       <AbilityId5>150</AbilityId5>   <!-- Tailwind -->
       <AbilityId6>152</AbilityId6>   <!-- Chant -->
-      <AbilityId7>154</AbilityId7>   <!-- Ultima (???, learn on hit in Ch 4) -->
+      <AbilityId7>0</AbilityId7>
       <AbilityId8>0</AbilityId8>
       <AbilityId9>0</AbilityId9>
       <AbilityId10>0</AbilityId10>
@@ -41,8 +40,8 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
     </JobCommand>
 
-    <!-- ==================== CHAPTER 3: LEADERSHIP TOOLS ==================== -->
-    <!-- Mettle Chapter 3 (Id 26) - Inspiring allies -->
+    <!-- ==================== CHAPTER 2-3: VETERAN MERCENARY ==================== -->
+    <!-- Mettle Chapter 2-3 (Id 26) - Expanded toolkit with drain abilities -->
     <!-- Ultima at AbilityId8 shows as ??? (not learnable yet) -->
     <JobCommand>
       <Id>26</Id>
@@ -56,8 +55,8 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId6>152</AbilityId6>   <!-- Chant -->
       <AbilityId7>151</AbilityId7>   <!-- Steel -->
       <AbilityId8>154</AbilityId8>   <!-- Ultima (???, learn on hit in Ch 4) -->
-      <AbilityId9>0</AbilityId9>
-      <AbilityId10>0</AbilityId10>
+      <AbilityId9>164</AbilityId9>   <!-- Duskblade (Drain MP) -->
+      <AbilityId10>165</AbilityId10>   <!-- Shadowblade (Drain HP) -->
       <AbilityId11>0</AbilityId11>
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
@@ -88,8 +87,8 @@ Ultima (154) stays in same position as vanilla, shows as ??? until learned via h
       <AbilityId7>151</AbilityId7>   <!-- Steel -->
       <AbilityId8>153</AbilityId8>   <!-- Shout -->
       <AbilityId9>154</AbilityId9>   <!-- Ultima (learn on hit) -->
-      <AbilityId10>0</AbilityId10>
-      <AbilityId11>0</AbilityId11>
+      <AbilityId10>164</AbilityId10>   <!-- Duskblade (Drain MP) -->
+      <AbilityId11>165</AbilityId11>   <!-- Shadowblade (Drain HP) -->
       <AbilityId12>0</AbilityId12>
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
