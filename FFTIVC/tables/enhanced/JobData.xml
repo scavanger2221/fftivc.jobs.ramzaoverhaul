@@ -1,185 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-Ramza Progressive Buff Mod - Job Stats
-Progressive power scaling across Chapter 1, 2-3, and 4
--->
+<!-- Ramza Progressive Buff Mod -->
 
 <JobTable>
   <Version>1</Version>
   <Entries>
 
-    <!-- ==================== CHAPTER 1: TRAINEE HERO ==================== -->
+    <!-- RAMZA -->
+    <!-- ID 1: RAMZA CH1 - Concentration (469) -->
     <Job>
       <Id>1</Id>
-      <!-- Squire / 見習い戦士 - Chapter 1 Ramza -->
-      
-      <!-- Equipment: Basic weapons only -->
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, HairAdornment, Hat, Flail, Sword, Knife, Unarmed</EquippableItems>
-      
-      <!-- Stats: Promising trainee, better than generics -->
-      <HPGrowth>12</HPGrowth>
+      <HPGrowth>11</HPGrowth>
       <HPMultiplier>125</HPMultiplier>
-      
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>105</MPMultiplier>
-      
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>100</SpeedMultiplier>
-      
-      <PAGrowth>52</PAGrowth>
+      <PAGrowth>46</PAGrowth>
       <PAMultiplier>115</PAMultiplier>
-      
-      <MAGrowth>50</MAGrowth>
+      <MAGrowth>48</MAGrowth>
       <MAMultiplier>105</MAMultiplier>
-      
       <Move>4</Move>
       <Jump>3</Jump>
       <CharacterEvasion>10</CharacterEvasion>
-      
-      <!-- Innate: Concentration (learning the basics) -->
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
-      
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ==================== CHAPTER 2-3: VETERAN MERCENARY ==================== -->
+    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Attack Boost (465) -->
     <Job>
       <Id>2</Id>
-      <!-- Squire / 見習い戦士 - Chapter 2-3 Ramza -->
-      
-      <!-- Equipment: Heavy armor, shields -->
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Unarmed</EquippableItems>
-      
-      <!-- Stats: Battle-hardened survivor -->
-      <HPGrowth>13</HPGrowth>
+      <HPGrowth>11</HPGrowth>
       <HPMultiplier>140</HPMultiplier>
-      
-      <MPGrowth>12</MPGrowth>
+      <MPGrowth>11</MPGrowth>
       <MPMultiplier>110</MPMultiplier>
-      
-      <SpeedGrowth>100</SpeedGrowth>
+      <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>105</SpeedMultiplier>
-      
-      <PAGrowth>55</PAGrowth>
+      <PAGrowth>45</PAGrowth>
       <PAMultiplier>120</PAMultiplier>
-      
-      <MAGrowth>52</MAGrowth>
+      <MAGrowth>46</MAGrowth>
       <MAMultiplier>110</MAMultiplier>
-      
       <Move>5</Move>
       <Jump>4</Jump>
       <CharacterEvasion>12</CharacterEvasion>
-      
-      <!-- Innates: Concentration + Attack Boost (combat veteran) -->
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>465</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
-      
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ==================== CHAPTER 4: ZODIAC GOD-KILLER ==================== -->
+    <!-- ID 3: RAMZA CH4 - Concentration (469), Attack Boost (465), Swiftspell (482) -->
     <Job>
       <Id>3</Id>
-      <!-- Gallant Knight / 見習い天騎士 - Chapter 4 Ramza -->
-      
-      <!-- Equipment: ALL weapons (freedom to build) -->
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
-      
-      <!-- Stats: Legendary hero who defeated Ultima -->
-      <HPGrowth>15</HPGrowth>
+      <HPGrowth>11</HPGrowth>
       <HPMultiplier>160</HPMultiplier>
-      
-      <MPGrowth>13</MPGrowth>
+      <MPGrowth>11</MPGrowth>
       <MPMultiplier>120</MPMultiplier>
-      
-      <SpeedGrowth>102</SpeedGrowth>
+      <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>110</SpeedMultiplier>
-      
-      <PAGrowth>58</PAGrowth>
+      <PAGrowth>44</PAGrowth>
       <PAMultiplier>125</PAMultiplier>
-      
-      <MAGrowth>55</MAGrowth>
+      <MAGrowth>44</MAGrowth>
       <MAMultiplier>120</MAMultiplier>
-      
       <Move>5</Move>
       <Jump>4</Jump>
       <CharacterEvasion>15</CharacterEvasion>
-      
-      <!-- Innates: All three (master of all forms) -->
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>465</InnateAbilityId2>
       <InnateAbilityId3>482</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
-      
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ==================== ARCHER BUFF: Concentration + PA ==================== -->
+    <!-- JOB INNATES -->
+    <!-- ID 76: KNIGHT - Defense Boost (466) -->
+    <Job>
+      <Id>76</Id>
+      <InnateAbilityId1>466</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 77: ARCHER - Concentration (469), PA 120 -->
     <Job>
       <Id>77</Id>
-      <!-- Archer / 弓使い - Now with Concentration innate and stronger attacks -->
-      
-      <!-- Stats: 10% more PA (was 110, now 120) -->
       <PAMultiplier>120</PAMultiplier>
-      
-      <!-- Innate: Concentration (every shot counts) -->
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ==================== SAMURAI BUFF: Doublehand + PA ==================== -->
-    <Job>
-      <Id>88</Id>
-      <!-- Samurai / 侍 - High PA with Doublehand -->
-      
-      <!-- Stats: High PA for katana damage -->
-      <PAMultiplier>135</PAMultiplier>  <!-- Was 132, now 135 (+3) -->
-      
-      <!-- Innate: Doublehand (Id 476) -->
-      <InnateAbilityId1>476</InnateAbilityId1>
-      <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
-    </Job>
-
-    <!-- ==================== JOB INNATES BUFF ==================== -->
-    
-    <!-- Knight: Defense Boost (vulnerable to magic, needs physical defense) -->
-    <Job>
-      <Id>76</Id>
-      <InnateAbilityId1>466</InnateAbilityId1>  <!-- Defense Boost -->
-      <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
-    </Job>
-
-    <!-- White Mage: Magick Defense Boost (squishy healer needs magic defense) -->
+    <!-- ID 79: WHITE MAGE - Magick Defense Boost (468) -->
     <Job>
       <Id>79</Id>
-      <InnateAbilityId1>468</InnateAbilityId1>  <!-- Magick Defense Boost -->
+      <InnateAbilityId1>468</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- Dragoon: Ignore Elevation (jumps from anywhere) -->
-    <Job>
-      <Id>87</Id>
-      <InnateAbilityId1>492</InnateAbilityId1>  <!-- Ignore Elevation -->
-      <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
-    </Job>
-
-    <!-- Time Mage: No innate (Swiftspell removed for balance) -->
+    <!-- ID 81: TIME MAGE - No innate -->
     <Job>
       <Id>81</Id>
       <InnateAbilityId1>0</InnateAbilityId1>
@@ -188,108 +117,169 @@ Progressive power scaling across Chapter 1, 2-3, and 4
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- Summoner: Halve MP (expensive summons need MP reduction) -->
+    <!-- ID 82: SUMMONER - Halve MP (462) -->
     <Job>
       <Id>82</Id>
-      <InnateAbilityId1>462</InnateAbilityId1>  <!-- Halve MP -->
+      <InnateAbilityId1>462</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- Mystic: Swiftspell -->
-    <Job>
-      <Id>85</Id>
-      <InnateAbilityId1>482</InnateAbilityId1>  <!-- Swiftspell -->
-      <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
-    </Job>
-
-    <!-- Geomancer: Attack Boost (nature's fury hits harder) -->
-    <Job>
-      <Id>86</Id>
-      <InnateAbilityId1>465</InnateAbilityId1>  <!-- Attack Boost -->
-      <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
-    </Job>
-
-    <!-- Thief: Concentration (easier to steal with accuracy) -->
+    <!-- ID 83: THIEF - Concentration (469) -->
     <Job>
       <Id>83</Id>
-      <InnateAbilityId1>469</InnateAbilityId1>  <!-- Concentration -->
+      <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- Holy Knight (Id 30): Magick Defense Boost + PA/MA buff -->
+    <!-- ID 85: MYSTIC - Swiftspell (482) -->
+    <Job>
+      <Id>85</Id>
+      <InnateAbilityId1>482</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 86: GEOMANCER - Attack Boost (465) -->
+    <Job>
+      <Id>86</Id>
+      <InnateAbilityId1>465</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 87: DRAGOON - Ignore Elevation (492) -->
+    <Job>
+      <Id>87</Id>
+      <InnateAbilityId1>492</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 88: SAMURAI - Doublehand (476), PA 135 -->
+    <Job>
+      <Id>88</Id>
+      <PAMultiplier>135</PAMultiplier>
+      <InnateAbilityId1>476</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 30: HOLY KNIGHT - Magick Defense Boost (468), PA 115, MA 105 -->
     <Job>
       <Id>30</Id>
-      <!-- Stats: Better PA/MA to match holy knight prestige -->
-      <PAMultiplier>115</PAMultiplier>  <!-- Was 100, now 115 -->
-      <MAMultiplier>105</MAMultiplier>  <!-- Was 100, now 105 -->
-      <InnateAbilityId1>468</InnateAbilityId1>  <!-- Magick Defense Boost -->
+      <PAMultiplier>115</PAMultiplier>
+      <MAMultiplier>105</MAMultiplier>
+      <InnateAbilityId1>468</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ==================== MONSTER HP BUFFS (+20% Base) ==================== -->
+    <!-- MONSTER HP BUFFS -->
 
-    <!-- Goblins -->
     <Job><Id>97</Id><HPMultiplier>140</HPMultiplier></Job>
     <Job><Id>98</Id><HPMultiplier>145</HPMultiplier></Job>
     <Job><Id>99</Id><HPMultiplier>150</HPMultiplier></Job>
     <Job><Id>170</Id><HPMultiplier>140</HPMultiplier></Job>
     <Job><Id>171</Id><HPMultiplier>145</HPMultiplier></Job>
-
-    <!-- Chocobos -->
     <Job><Id>94</Id><HPMultiplier>130</HPMultiplier></Job>
     <Job><Id>95</Id><HPMultiplier>135</HPMultiplier></Job>
     <Job><Id>96</Id><HPMultiplier>140</HPMultiplier></Job>
     <Job><Id>173</Id><HPMultiplier>130</HPMultiplier></Job>
-
-    <!-- Bombs -->
     <Job><Id>100</Id><HPMultiplier>110</HPMultiplier></Job>
     <Job><Id>101</Id><HPMultiplier>115</HPMultiplier></Job>
     <Job><Id>102</Id><HPMultiplier>120</HPMultiplier></Job>
     <Job><Id>172</Id><HPMultiplier>110</HPMultiplier></Job>
-
-    <!-- Panthers -->
-    <Job><Id>103</Id><HPMultiplier>135</HPMultiplier></Job>
-    <Job><Id>104</Id><HPMultiplier>140</HPMultiplier></Job>
-    <Job><Id>105</Id><HPMultiplier>145</HPMultiplier></Job>
-    <Job><Id>169</Id><HPMultiplier>135</HPMultiplier></Job>
-
-    <!-- Undead (Skeletons/Ghouls) -->
-    <Job><Id>109</Id><HPMultiplier>140</HPMultiplier></Job>
-    <Job><Id>110</Id><HPMultiplier>145</HPMultiplier></Job>
-    <Job><Id>111</Id><HPMultiplier>150</HPMultiplier></Job>
-    <Job><Id>112</Id><HPMultiplier>110</HPMultiplier></Job>
-    <Job><Id>113</Id><HPMultiplier>115</HPMultiplier></Job>
-    <Job><Id>114</Id><HPMultiplier>120</HPMultiplier></Job>
-
-    <!-- Behemoths -->
-    <Job><Id>133</Id><HPMultiplier>170</HPMultiplier></Job>
-    <Job><Id>134</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>135</Id><HPMultiplier>190</HPMultiplier></Job>
-
-    <!-- Dragons -->
-    <Job><Id>136</Id><HPMultiplier>160</HPMultiplier></Job>
-    <Job><Id>137</Id><HPMultiplier>170</HPMultiplier></Job>
-    <Job><Id>138</Id><HPMultiplier>180</HPMultiplier></Job>
-
-    <!-- Hydras -->
-    <Job><Id>139</Id><HPMultiplier>115</HPMultiplier></Job>
-    <Job><Id>140</Id><HPMultiplier>125</HPMultiplier></Job>
-    <Job><Id>141</Id><HPMultiplier>140</HPMultiplier></Job>
-
-    <!-- Malboros -->
-    <Job><Id>130</Id><HPMultiplier>210</HPMultiplier></Job>
-    <Job><Id>131</Id><HPMultiplier>220</HPMultiplier></Job>
-    <Job><Id>132</Id><HPMultiplier>230</HPMultiplier></Job>
+    <Job><Id>103</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>104</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>105</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>106</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>107</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>108</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>109</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>110</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>111</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>112</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>113</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>114</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>115</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>116</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>117</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>118</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>119</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>120</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>121</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>122</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>123</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>124</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>125</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>126</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>127</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>128</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>129</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>130</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>131</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>132</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>133</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>134</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>135</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>136</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>137</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>138</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>139</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>140</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>141</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>142</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>143</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>144</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>145</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>146</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>147</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>148</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>149</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>150</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>151</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>152</Id><HPMultiplier>165</HPMultiplier></Job>
+    <Job><Id>153</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>154</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>155</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>156</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>157</Id><HPMultiplier>165</HPMultiplier></Job>
+    <Job><Id>158</Id><HPMultiplier>170</HPMultiplier></Job>
+    <Job><Id>159</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>160</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>161</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>162</Id><HPMultiplier>165</HPMultiplier></Job>
+    <Job><Id>163</Id><HPMultiplier>170</HPMultiplier></Job>
+    <Job><Id>164</Id><HPMultiplier>175</HPMultiplier></Job>
+    <Job><Id>165</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>166</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>167</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>168</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>169</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>174</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>175</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>176</Id><HPMultiplier>140</HPMultiplier></Job>
+    <Job><Id>177</Id><HPMultiplier>145</HPMultiplier></Job>
+    <Job><Id>178</Id><HPMultiplier>150</HPMultiplier></Job>
+    <Job><Id>179</Id><HPMultiplier>155</HPMultiplier></Job>
+    <Job><Id>180</Id><HPMultiplier>160</HPMultiplier></Job>
+    <Job><Id>181</Id><HPMultiplier>165</HPMultiplier></Job>
+    <Job><Id>182</Id><HPMultiplier>170</HPMultiplier></Job>
+    <Job><Id>183</Id><HPMultiplier>175</HPMultiplier></Job>
+    <Job><Id>184</Id><HPMultiplier>180</HPMultiplier></Job>
+    <Job><Id>185</Id><HPMultiplier>185</HPMultiplier></Job>
+    <Job><Id>186</Id><HPMultiplier>190</HPMultiplier></Job>
+    <Job><Id>187</Id><HPMultiplier>195</HPMultiplier></Job>
+    <Job><Id>188</Id><HPMultiplier>200</HPMultiplier></Job>
 
   </Entries>
 </JobTable>
