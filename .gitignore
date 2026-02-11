@@ -1,0 +1,33 @@
+# Database files (generated)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+/tmp/
+temp/
+
+# Generated NXD files (should be generated from source)
+# Keep only the final nxd files in FFTIVC/data/enhanced/nxd/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
