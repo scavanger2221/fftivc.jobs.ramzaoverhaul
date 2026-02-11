@@ -35,16 +35,16 @@
       <Chemist>4</Chemist>
       <Knight>3</Knight>
       <Archer>3</Archer>
-      <Monk>2</Monk>
+      <Monk>3</Monk>
       <WhiteMage>3</WhiteMage>
       <BlackMage>3</BlackMage>
-      <TimeMage>2</TimeMage>
-      <Summoner>2</Summoner>
+      <TimeMage>3</TimeMage>
+      <Summoner>3</Summoner>
       <Thief>3</Thief>
-      <Orator>2</Orator>
+      <Orator>3</Orator>
       <Mystic>3</Mystic>
-      <Geomancer>2</Geomancer>
-      <Dragoon>2</Dragoon>
+      <Geomancer>3</Geomancer>
+      <Dragoon>3</Dragoon>
     </JobNeedLevel>
   </Entries>
 </JobNeedLevelTable>
