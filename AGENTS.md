@@ -29,3 +29,22 @@ To prevent table conflicts, data corruption, and redundant edits, all AI agents 
 ## 5. Deployment & Sync
 *   **Target Folder**: `/home/galkasoft/Desktop/Reloaded-II - FINAL FANTASY TACTICS - The Ivalice Chronicles/Mods/fftivc.jobs.ramzaoverhaul/`
 *   **Git**: Commit and push immediately after successful verification of both XML and NXD files.
+
+## 6. Known Mechanics & Edge Cases (What We Learned)
+
+### Formulas & Scaling
+*   **Ultima (ID 154)**: Uses **Formula 32**. Setting this in `OverrideAbilityActionData` allows it to scale with PA/MA.
+*   **Geomancy (0x0B / 11)**: A hardcoded hybrid formula `Damage = MA * [(PA + 2) / 2]`. **Do not change the Formula ID** for terrain skills; it will break them. Buff via stats or status rates instead.
+*   **Physical vs Magical Flags**: `AIBehaviorFlags` in XML must match the intended formula. If a skill uses PA but is flagged as `MagicalAttack`, the AI and multipliers may conflict.
+*   **Accuracy**: For status skills (Oracle/Orator), success rate is usually the **Y** column in `OverrideAbilityActionData`.
+
+### Table Nuances
+*   **JP Costs**: The `JPCost` in `AbilityData.xml` is **UNUSED** by the game engine. You must edit the `Ability` nex table (exported as `ability.en.nxd`) to change actual costs.
+*   **Job Requirements**: Stored in `GeneralJob`. Note that `RequiredJobIds` use **internal indices** (0-based order), not the `Job-en` Keys. 
+    *   *Example mapping*: Summoner=11, Orator=14.
+*   **Tactician Difficulty**: Enemy stats are controlled via the `DifficultyLevel` table. `UnknownC` = Enemy PA %, `Unknown14` = Enemy Damage %.
+
+### Character-Specific Data
+*   **Ramza**: Has three distinct Job IDs (**1, 2, 3**) for different chapters. Always update all three for consistent stat growth.
+*   **Stat Growth**: Lower values in `Growth` fields = **Faster** stat gains. Final Chapter jobs usually have lower values than Chapter 1.
+*   **Divine Knight**: `Crush Weapon` (162) and `Crush Accessory` (163) lack the `HP` flag by default, meaning they destroy equipment but deal **zero** damage unless modified.
