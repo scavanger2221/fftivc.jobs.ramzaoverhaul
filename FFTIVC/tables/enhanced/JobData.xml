@@ -144,10 +144,10 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 86: GEOMANCER - Attack Boost (465) -->
+    <!-- ID 86: GEOMANCER - Magick Boost (467) -->
     <Job>
       <Id>86</Id>
-      <InnateAbilityId1>465</InnateAbilityId1>
+      <InnateAbilityId1>467</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
