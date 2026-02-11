@@ -12,12 +12,15 @@ To prevent table conflicts, data corruption, and redundant edits, all AI agents 
 *   **Duplicate Prevention**: Before an `INSERT`, always run `DELETE FROM Table WHERE Key = ID` to avoid fatal errors during NXD export.
 *   **Cell Integrity**: Ensure that rows you are not intentionally modding remain set to vanilla values (usually `-1` in override tables) so the mod loader's cell-merging doesn't cause conflicts.
 
-## 3. NXD Export & Cleanup Workflow
-1.  Apply changes to `fft_all_data.db` via SQLite.
+## 3. NXD Export & Maintenance
+1.  Apply changes to the master database (`fft_all_data.db`).
 2.  Run conversion: `ff16-cli sqlite-to-nxd -i fft_all_data.db -o FFTIVC/data/enhanced/nxd/ -g fft`.
-3.  **Mandatory Cleanup**: The export generates 240+ files. You **MUST** delete all files except the ones containing active mod data.
-    *   *Permissible Files*: `ability.en.nxd`, `generaljob.nxd`, `overrideabilityactiondata.nxd`, `overrideentrydata.nxd`, `difficultylevel.nxd`.
-4.  Verify content: Export the generated NXD back to a temp SQLite file to ensure the values are correct before deployment.
+3.  **Preserve existing work**: Ensure that the master database always contains all previous modifications. Regenerating an NXD file should never result in a regression of earlier patches.
+4.  **Cleanup**: The export generates many unnecessary files. Keep only the binaries that are part of this mod (e.g., `ability.en.nxd`, `generaljob.nxd`, etc.). Do not delete files that were already present in the mod's `nxd/` folder unless they are no longer needed.
+
+## 4. Verification & Validation
+*   **Database Check**: Always verify the state of the database with SQL queries before exporting.
+*   **Reverse Export**: Periodically export a generated NXD back to a temporary SQLite file to confirm that the binary data exactly matches the intended modifications.
 
 ## 4. XML Formatting Standards
 *   **Minimalism**: Only include `<Job>` or `<Ability>` nodes that have actual changes. Remove all original game entries to prevent mod conflicts.
