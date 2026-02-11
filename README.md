@@ -31,10 +31,10 @@ Ramza now grows in power as the story progresses. His stats, innates, and equipm
 
 ### 🏪 Shop & Skill Changes
 - **Rare Items**: Artemis Bow and Holy Lance added to Chapter 4 shops (Lesalia/Riovanes).
-- **Ultima**: Buffed Power (23 -> 50) and adjusted MP/CT. Learnable via hit in Chapter 4.
+- **Ultima**: Buffed Power (23 -> 50) and adjusted MP/CT. **Learnable ONLY on hit (Blue Magic)**, displays as `???` in the JP menu. Not learnable via JP.
 - **Mettle**: Expanded with Duskblade and Shadowblade in later chapters.
 - **Hasteja**: Nerfed EffectArea (3 -> 2) for balance.
-- **JP Costs**: Halved for all abilities for faster progression.
+- **JP Costs**: **Halved for all abilities** (except Ultima/Zodiark which are preserved at 9999 for `???` display).
 
 ### ⚖️ Difficulty Tuning
 - **Tactician**: Enemy PA and Damage reduced (120% -> 115%).

@@ -1258,9 +1258,9 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
     </Ability>
     <Ability>
       <Id>154</Id> <!-- Ultima / アルテマ / Ultima / Ultima -->
-      <JPCost>2000</JPCost>
+      <JPCost>9999</JPCost>
       <ChanceToLearn>100</ChanceToLearn>
-      <Flags>LearnOnHit, DisplayAbilityName</Flags>
+      <Flags>LearnOnHit, DisplayAbilityName, DontLearnWithJP</Flags>
       <AbilityType>Normal</AbilityType>
       <AIBehaviorFlags>TargetEnemies, HP, Silence, AffectedByFaith, CheckCT_Target, MagicalAttack, UsableByAI</AIBehaviorFlags>
     </Ability>
