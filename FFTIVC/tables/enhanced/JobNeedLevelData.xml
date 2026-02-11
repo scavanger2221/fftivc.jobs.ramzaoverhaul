@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 
 <!-- Job Requirements - Halved Orator/Summoner for Bard/Dancer, Halved all for Mime -->
-
 <JobNeedLevelTable>
   <Version>1</Version>
   <Entries>
@@ -9,89 +7,44 @@
     <!-- ID 16: BARD - Summoner 3, Orator 3 (halved) -->
     <JobNeedLevel>
       <Id>16</Id>
-      <Squire>0</Squire>
       <Chemist>2</Chemist>
-      <Knight>0</Knight>
-      <Archer>0</Archer>
-      <Monk>0</Monk>
       <WhiteMage>3</WhiteMage>
       <BlackMage>3</BlackMage>
       <TimeMage>3</TimeMage>
       <Summoner>3</Summoner>
-      <Thief>0</Thief>
       <Orator>3</Orator>
       <Mystic>3</Mystic>
-      <Geomancer>0</Geomancer>
-      <Dragoon>0</Dragoon>
-      <Samurai>0</Samurai>
-      <Ninja>0</Ninja>
-      <Arithmetician>0</Arithmetician>
-      <Bard>0</Bard>
-      <Dancer>0</Dancer>
-      <Mime>0</Mime>
-      <DarkKnight>0</DarkKnight>
-      <OnionKnight>0</OnionKnight>
-      <Unknown1>0</Unknown1>
-      <Unknown2>0</Unknown2>
     </JobNeedLevel>
 
     <!-- ID 17: DANCER - Summoner 3, Orator 3 added, rest original -->
     <JobNeedLevel>
       <Id>17</Id>
       <Squire>2</Squire>
-      <Chemist>0</Chemist>
       <Knight>3</Knight>
       <Archer>3</Archer>
-      <Monk>4</Monk>
-      <WhiteMage>0</WhiteMage>
-      <BlackMage>0</BlackMage>
-      <TimeMage>0</TimeMage>
-      <Summoner>3</Summoner>
-      <Thief>4</Thief>
-      <Orator>3</Orator>
-      <Mystic>0</Mystic>
-      <Geomancer>0</Geomancer>
-      <Dragoon>0</Dragoon>
-      <Samurai>0</Samurai>
-      <Ninja>0</Ninja>
-      <Arithmetician>0</Arithmetician>
-      <Bard>0</Bard>
-      <Dancer>0</Dancer>
-      <Mime>0</Mime>
-      <DarkKnight>0</DarkKnight>
-      <OnionKnight>0</OnionKnight>
-      <Unknown1>0</Unknown1>
-      <Unknown2>0</Unknown2>
+      <Monk>3</Monk>
+      <Thief>3</Thief>
+      <Dragoon>3</Dragoon>
+      <Geomancer>3</Geomancer>
     </JobNeedLevel>
 
-    <!-- ID 18: MIME - All requirements halved -->
     <JobNeedLevel>
       <Id>18</Id>
+      <!--  Mime / ものまね士 / Mime / Pantomime  -->
       <Squire>4</Squire>
       <Chemist>4</Chemist>
-      <Knight>2</Knight>
-      <Archer>2</Archer>
+      <Knight>3</Knight>
+      <Archer>3</Archer>
       <Monk>2</Monk>
-      <WhiteMage>2</WhiteMage>
-      <BlackMage>2</BlackMage>
+      <WhiteMage>3</WhiteMage>
+      <BlackMage>3</BlackMage>
       <TimeMage>2</TimeMage>
-      <Summoner>3</Summoner>
-      <Thief>2</Thief>
-      <Orator>3</Orator>
-      <Mystic>2</Mystic>
-      <Geomancer>3</Geomancer>
-      <Dragoon>3</Dragoon>
-      <Samurai>0</Samurai>
-      <Ninja>0</Ninja>
-      <Arithmetician>0</Arithmetician>
-      <Bard>0</Bard>
-      <Dancer>0</Dancer>
-      <Mime>0</Mime>
-      <DarkKnight>0</DarkKnight>
-      <OnionKnight>0</OnionKnight>
-      <Unknown1>0</Unknown1>
-      <Unknown2>0</Unknown2>
+      <Summoner>2</Summoner>
+      <Thief>3</Thief>
+      <Orator>2</Orator>
+      <Mystic>3</Mystic>
+      <Geomancer>2</Geomancer>
+      <Dragoon>2</Dragoon>
     </JobNeedLevel>
-
   </Entries>
 </JobNeedLevelTable>

@@ -29,12 +29,18 @@ Ramza now grows in power as the story progresses. His stats, innates, and equipm
 - **Mages**: Added Swiftspell, Halve MP, and Magick Defense Boost to relevant classes.
 - **Monster HP**: Various monsters buffed (+20-30% HP).
 
+### 🔓 Job Unlock Requirements
+- **Bard**: Requires Chemist(2), White Mage(3), Black Mage(3), Time Mage(3), Summoner(3), Orator(3), Mystic(3) - Summoner and Orator halved from vanilla.
+- **Dancer**: Requires Squire(2), Knight(3), Archer(3), Monk(3), Thief(3), Geomancer(3), Dragoon(3) - Geomancer and Dragoon added for thematic consistency.
+- **Mime**: All job requirements halved for earlier access (Squire 4, Chemist 4, Knight 3, Archer 3, Monk 2, White Mage 3, Black Mage 3, Time Mage 2, Summoner 2, Thief 3, Orator 2, Mystic 3, Geomancer 2, Dragoon 2).
+
 ### 🏪 Shop & Skill Changes
 - **Rare Items**: Artemis Bow and Holy Lance added to Chapter 4 shops (Lesalia/Riovanes).
 - **Ultima**: Buffed Power (23 -> 50) and adjusted MP/CT. **Learnable ONLY on hit (Blue Magic)**, displays as `???` in the JP menu. Not learnable via JP.
 - **Mettle**: Expanded with Duskblade and Shadowblade in later chapters.
 - **Hasteja**: Nerfed EffectArea (3 -> 2) for balance.
 - **JP Costs**: **Halved for all abilities** (except Ultima/Zodiark which are preserved at 9999 for `???` display).
+- **Oracle/Mystic Skills**: +20 accuracy to all status skills (Blind, Sleep, Petrify, Foxbird, etc.) for better reliability.
 
 ### ⚖️ Difficulty Tuning
 - **Tactician**: Enemy PA and Damage reduced (120% -> 115%).
