@@ -130,5 +130,63 @@ Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
       <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
     </JobCommand>
 
+    <!-- ==================== BARD: KEEP ALL + ADD JUMP +3 ==================== -->
+    <JobCommand>
+      <Id>22</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>86</AbilityId1>
+      <AbilityId2>87</AbilityId2>
+      <AbilityId3>88</AbilityId3>
+      <AbilityId4>89</AbilityId4>
+      <AbilityId5>90</AbilityId5>
+      <AbilityId6>91</AbilityId6>
+      <AbilityId7>92</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>423</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>430</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>488</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>507</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>491</ReactionSupportMovementId5>   <!-- Jump +3 (added) -->
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+
+    <!-- ==================== DANCER: KEEP ALL + ADD MOVE +3 ==================== -->
+    <JobCommand>
+      <Id>23</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>93</AbilityId1>
+      <AbilityId2>94</AbilityId2>
+      <AbilityId3>95</AbilityId3>
+      <AbilityId4>96</AbilityId4>
+      <AbilityId5>97</AbilityId5>
+      <AbilityId6>98</AbilityId6>
+      <AbilityId7>99</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>422</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>429</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>491</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>507</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>488</ReactionSupportMovementId5>   <!-- Move +3 (added) -->
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+
   </Entries>
 </JobCommandTable>

@@ -291,6 +291,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>33</Id> <!-- Hasteja / ヘイスジャ / Giga-Hâte / Hastka -->
       <JPCost>120</JPCost>
       <ChanceToLearn>20</ChanceToLearn>
+      <EffectArea>2</EffectArea> <!-- Nerf: Area 3 -> 2 -->
       <Flags>LearnOnHit, DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
       <AIBehaviorFlags>TargetAllies, AddStatus, Silence, AffectedByFaith, CheckCT_Target, UsableByAI</AIBehaviorFlags>

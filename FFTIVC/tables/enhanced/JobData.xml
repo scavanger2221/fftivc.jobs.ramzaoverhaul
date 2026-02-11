@@ -183,22 +183,14 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 91: BARD - Move +3 (488), Jump +3 (491) -->
+    <!-- ID 91: BARD -->
     <Job>
       <Id>91</Id>
-      <InnateAbilityId1>488</InnateAbilityId1>
-      <InnateAbilityId2>491</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 92: DANCER - Move +3 (488), Jump +3 (491) -->
+    <!-- ID 92: DANCER -->
     <Job>
       <Id>92</Id>
-      <InnateAbilityId1>488</InnateAbilityId1>
-      <InnateAbilityId2>491</InnateAbilityId2>
-      <InnateAbilityId3>0</InnateAbilityId3>
-      <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
     <!-- ID 36: DIVINE KNIGHT - PA 120 -->
