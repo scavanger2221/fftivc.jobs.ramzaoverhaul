@@ -183,6 +183,34 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
+    <!-- ID 91: BARD - Move +3 (488), Jump +3 (491) -->
+    <Job>
+      <Id>91</Id>
+      <InnateAbilityId1>488</InnateAbilityId1>
+      <InnateAbilityId2>491</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 92: DANCER - Move +3 (488), Jump +3 (491) -->
+    <Job>
+      <Id>92</Id>
+      <InnateAbilityId1>488</InnateAbilityId1>
+      <InnateAbilityId2>491</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 36: DIVINE KNIGHT - PA 120 -->
+    <Job>
+      <Id>36</Id>
+      <PAMultiplier>120</PAMultiplier>
+      <InnateAbilityId1>0</InnateAbilityId1>
+      <InnateAbilityId2>0</InnateAbilityId2>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
     <!-- MONSTER HP BUFFS -->
 
     <Job><Id>97</Id><HPMultiplier>140</HPMultiplier></Job>

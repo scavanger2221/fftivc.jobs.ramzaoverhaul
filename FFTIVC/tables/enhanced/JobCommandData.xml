@@ -101,5 +101,34 @@ Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
       <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
     </JobCommand>
 
+    <!-- ==================== DIVINE KNIGHT: UNYIELDING BLADE ==================== -->
+    <JobCommand>
+      <Id>64</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>0</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>155</AbilityId1>   <!-- Judgment Blade (Added) -->
+      <AbilityId2>160</AbilityId2>   <!-- Crush Armor -->
+      <AbilityId3>161</AbilityId3>   <!-- Crush Helm -->
+      <AbilityId4>162</AbilityId4>   <!-- Crush Weapon -->
+      <AbilityId5>163</AbilityId5>   <!-- Crush Accessory -->
+      <AbilityId6>0</AbilityId6>
+      <AbilityId7>0</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>0</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+
   </Entries>
 </JobCommandTable>
