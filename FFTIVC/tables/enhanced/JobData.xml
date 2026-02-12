@@ -45,7 +45,7 @@
       <PAMultiplier>120</PAMultiplier>
       <MAGrowth>46</MAGrowth>
       <MAMultiplier>110</MAMultiplier>
-      <Move>5</Move>
+      <Move>4</Move>
       <Jump>4</Jump>
       <CharacterEvasion>12</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
@@ -69,7 +69,7 @@
       <PAMultiplier>125</PAMultiplier>
       <MAGrowth>44</MAGrowth>
       <MAMultiplier>120</MAMultiplier>
-      <Move>5</Move>
+      <Move>4</Move>
       <Jump>4</Jump>
       <CharacterEvasion>15</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
