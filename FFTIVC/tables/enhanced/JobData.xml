@@ -31,7 +31,7 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Attack Boost (465) -->
+    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480) -->
     <Job>
       <Id>2</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Unarmed</EquippableItems>
@@ -42,48 +42,49 @@
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>105</SpeedMultiplier>
       <PAGrowth>45</PAGrowth>
-      <PAMultiplier>120</PAMultiplier>
+      <PAMultiplier>125</PAMultiplier>
       <MAGrowth>46</MAGrowth>
       <MAMultiplier>110</MAMultiplier>
       <Move>4</Move>
       <Jump>4</Jump>
       <CharacterEvasion>12</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
-      <InnateAbilityId2>465</InnateAbilityId2>
+      <InnateAbilityId2>480</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 3: RAMZA CH4 - Concentration (469), Attack Boost (465), Swiftspell (482) -->
+    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482) -->
     <Job>
       <Id>3</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>160</HPMultiplier>
+      <HPMultiplier>150</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>120</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>110</SpeedMultiplier>
       <PAGrowth>44</PAGrowth>
-      <PAMultiplier>125</PAMultiplier>
+      <PAMultiplier>130</PAMultiplier>
       <MAGrowth>44</MAGrowth>
       <MAMultiplier>120</MAMultiplier>
       <Move>4</Move>
       <Jump>4</Jump>
       <CharacterEvasion>15</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
-      <InnateAbilityId2>465</InnateAbilityId2>
+      <InnateAbilityId2>480</InnateAbilityId2>
       <InnateAbilityId3>482</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
     <!-- JOB INNATES -->
-    <!-- ID 76: KNIGHT - Defense Boost (466) -->
+    <!-- ID 76: KNIGHT - HP 145, No innate -->
     <Job>
       <Id>76</Id>
-      <InnateAbilityId1>466</InnateAbilityId1>
+      <HPMultiplier>145</HPMultiplier>
+      <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
@@ -153,9 +154,12 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 87: DRAGOON - Ignore Elevation (492) -->
+    <!-- ID 87: DRAGOON - Ignore Elevation (492), Move 4, PA 128, HP 135 -->
     <Job>
       <Id>87</Id>
+      <HPMultiplier>135</HPMultiplier>
+      <PAMultiplier>128</PAMultiplier>
+      <Move>4</Move>
       <InnateAbilityId1>492</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
@@ -172,12 +176,13 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 30: HOLY KNIGHT - Magick Defense Boost (468), PA 115, MA 105 -->
+    <!-- ID 30: HOLY KNIGHT - Safeguard (475), HP 155, PA 115, MA 105 -->
     <Job>
       <Id>30</Id>
+      <HPMultiplier>155</HPMultiplier>
       <PAMultiplier>115</PAMultiplier>
       <MAMultiplier>105</MAMultiplier>
-      <InnateAbilityId1>468</InnateAbilityId1>
+      <InnateAbilityId1>475</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
