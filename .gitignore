@@ -31,3 +31,6 @@ Thumbs.db
 *.a
 *.so
 *.dll
+
+# FF16Tools layout files
+Nex/

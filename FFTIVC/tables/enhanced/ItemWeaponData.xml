@@ -246,21 +246,21 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Id>48</Id> <!-- Battle Axe: Power Sap +2 Power -->
       <Power>11</Power>  <!-- 9 + 2 -->
       <Formula>2</Formula>
-      <OptionsAbilityId>88</OptionsAbilityId>  <!-- Power Sap -->
+      <OptionsAbilityId>144</OptionsAbilityId>  <!-- Power Sap -->
     </ItemWeapon>
 
     <ItemWeapon>
       <Id>49</Id> <!-- Giant's Axe: Magick Sap +2 Power -->
       <Power>14</Power>  <!-- 12 + 2 -->
       <Formula>2</Formula>
-      <OptionsAbilityId>90</OptionsAbilityId>  <!-- Magick Sap -->
+      <OptionsAbilityId>145</OptionsAbilityId>  <!-- Magick Sap -->
     </ItemWeapon>
 
     <ItemWeapon>
       <Id>50</Id> <!-- Slasher: Speed Sap +2 Power -->
       <Power>18</Power>  <!-- 16 + 2 -->
       <Formula>2</Formula>
-      <OptionsAbilityId>92</OptionsAbilityId>  <!-- Speed Sap -->
+      <OptionsAbilityId>143</OptionsAbilityId>  <!-- Speed Sap -->
     </ItemWeapon>
 
     <!-- ==================== FLAILS (Spell Proc + Power) ==================== -->
@@ -276,7 +276,7 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Id>68</Id> <!-- Flail of Flame: Fira +2 Power -->
       <Power>13</Power>  <!-- 11 + 2 -->
       <Formula>2</Formula>
-      <OptionsAbilityId>61</OptionsAbilityId>  <!-- Fira -->
+      <OptionsAbilityId>17</OptionsAbilityId>  <!-- Fira -->
     </ItemWeapon>
 
     <ItemWeapon>
@@ -290,7 +290,7 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Id>70</Id> <!-- Scorpion Tail: Bio +2 Power -->
       <Power>25</Power>  <!-- 23 + 2 -->
       <Formula>2</Formula>
-      <OptionsAbilityId>73</OptionsAbilityId>  <!-- Bio -->
+      <OptionsAbilityId>202</OptionsAbilityId>  <!-- Bio -->
     </ItemWeapon>
 
     <!-- ==================== DAGGERS & KNIVES ==================== -->
