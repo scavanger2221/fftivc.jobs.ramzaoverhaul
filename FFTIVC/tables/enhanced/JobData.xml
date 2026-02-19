@@ -7,12 +7,12 @@
   <Entries>
 
     <!-- RAMZA -->
-    <!-- ID 1: RAMZA CH1 - Concentration (469), HP 138 (was 125) -->
+    <!-- ID 1: RAMZA CH1 - Concentration (469), HP 145 (was 125) -->
     <Job>
       <Id>1</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, HairAdornment, Hat, Flail, Sword, Knife, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>138</HPMultiplier>
+      <HPMultiplier>145</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>105</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
@@ -31,12 +31,12 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480), HP 154 (was 140) -->
+    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480), HP 160 (was 140) -->
     <Job>
       <Id>2</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Bow, Crossbow, Polearm, Pole, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>154</HPMultiplier>
+      <HPMultiplier>160</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>110</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
@@ -55,12 +55,12 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482), HP 165 (was 150) -->
+    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482), HP 175 (was 150) -->
     <Job>
       <Id>3</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Polearm, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>165</HPMultiplier>
+      <HPMultiplier>175</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>120</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
