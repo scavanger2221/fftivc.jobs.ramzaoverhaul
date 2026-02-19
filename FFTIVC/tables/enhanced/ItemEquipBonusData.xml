@@ -121,5 +121,43 @@ Note: Using unused IDs (74-77) for unique bonuses to avoid conflicts with vanill
       <BoostJP>false</BoostJP>
     </ItemEquipBonus>
 
+    <!-- Jade Armlet (Id 59) - PA+1, keeps Stop/Stone immunity -->
+    <ItemEquipBonus>
+      <Id>59</Id>
+      <PABonus>1</PABonus>
+      <MABonus>0</MABonus>
+      <SpeedBonus>0</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>None</InnateStatus>
+      <ImmuneStatus>Stop, Stone</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
+    </ItemEquipBonus>
+
+    <!-- Nu Khai Armband (Id 61) - MA+1, keeps Charm/Confuse immunity -->
+    <ItemEquipBonus>
+      <Id>61</Id>
+      <PABonus>0</PABonus>
+      <MABonus>1</MABonus>
+      <SpeedBonus>0</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>None</InnateStatus>
+      <ImmuneStatus>Charm, Confuse</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
+    </ItemEquipBonus>
+
   </Entries>
 </ItemEquipBonusTable>
