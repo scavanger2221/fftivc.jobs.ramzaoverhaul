@@ -100,27 +100,42 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 79: WHITE MAGE - Magick Defense Boost (468) -->
+    <!-- ID 78: MONK - HP 162 (was 135) -->
+    <Job>
+      <Id>78</Id>
+      <HPMultiplier>162</HPMultiplier>
+    </Job>
+
+    <!-- ID 79: WHITE MAGE - Magick Defense Boost (468), HP 96 (was 80) -->
     <Job>
       <Id>79</Id>
+      <HPMultiplier>96</HPMultiplier>
       <InnateAbilityId1>468</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 81: TIME MAGE - No innate -->
+    <!-- ID 80: BLACK MAGE - HP 90 (was 75) -->
+    <Job>
+      <Id>80</Id>
+      <HPMultiplier>90</HPMultiplier>
+    </Job>
+
+    <!-- ID 81: TIME MAGE - HP 90 (was 75) -->
     <Job>
       <Id>81</Id>
+      <HPMultiplier>90</HPMultiplier>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 82: SUMMONER - MA 150 -->
+    <!-- ID 82: SUMMONER - MA 140, HP 84 (was 70) -->
     <Job>
       <Id>82</Id>
+      <HPMultiplier>84</HPMultiplier>
       <MAMultiplier>140</MAMultiplier>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
@@ -128,22 +143,30 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 83: THIEF - Concentration (469) -->
+    <!-- ID 83: THIEF - Concentration (469), HP 108 (was 90) -->
     <Job>
       <Id>83</Id>
+      <HPMultiplier>108</HPMultiplier>
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 85: MYSTIC - Swiftspell (482) -->
+    <!-- ID 85: MYSTIC - Swiftspell (482), HP 90 (was 75) -->
     <Job>
       <Id>85</Id>
+      <HPMultiplier>90</HPMultiplier>
       <InnateAbilityId1>482</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
+    </Job>
+
+    <!-- ID 89: NINJA - HP 84 (was 70) -->
+    <Job>
+      <Id>89</Id>
+      <HPMultiplier>84</HPMultiplier>
     </Job>
 
     <!-- ID 86: GEOMANCER - Magick Boost (467) -->
