@@ -7,12 +7,12 @@
   <Entries>
 
     <!-- RAMZA -->
-    <!-- ID 1: RAMZA CH1 - Concentration (469) -->
+    <!-- ID 1: RAMZA CH1 - Concentration (469), HP 138 (was 125) -->
     <Job>
       <Id>1</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, HairAdornment, Hat, Flail, Sword, Knife, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>125</HPMultiplier>
+      <HPMultiplier>138</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>105</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
@@ -31,12 +31,12 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480) -->
+    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480), HP 154 (was 140) -->
     <Job>
       <Id>2</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Bow, Crossbow, Polearm, Pole, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>140</HPMultiplier>
+      <HPMultiplier>154</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>110</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
@@ -55,12 +55,12 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482) -->
+    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482), HP 165 (was 150) -->
     <Job>
       <Id>3</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Polearm, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
-      <HPMultiplier>150</HPMultiplier>
+      <HPMultiplier>165</HPMultiplier>
       <MPGrowth>11</MPGrowth>
       <MPMultiplier>120</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
@@ -80,19 +80,44 @@
     </Job>
 
     <!-- JOB INNATES -->
-    <!-- ID 76: KNIGHT - HP 145, No innate -->
+    <!-- ID 74: SQUIRE - HP 120 (was 100) -->
+    <Job>
+      <Id>74</Id>
+      <HPMultiplier>120</HPMultiplier>
+    </Job>
+
+    <!-- ID 75: CHEMIST - HP 96 (was 80) -->
+    <Job>
+      <Id>75</Id>
+      <HPMultiplier>96</HPMultiplier>
+    </Job>
+
+    <!-- ID 84: ORATOR - HP 96 (was 80) -->
+    <Job>
+      <Id>84</Id>
+      <HPMultiplier>96</HPMultiplier>
+    </Job>
+
+    <!-- ID 90: ARITHMETICIAN - HP 78 (was 65) -->
+    <Job>
+      <Id>90</Id>
+      <HPMultiplier>78</HPMultiplier>
+    </Job>
+
+    <!-- ID 76: KNIGHT - HP 160 (was 145) -->
     <Job>
       <Id>76</Id>
-      <HPMultiplier>145</HPMultiplier>
+      <HPMultiplier>160</HPMultiplier>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 77: ARCHER - Concentration (469), PA 120 -->
+    <!-- ID 77: ARCHER - Concentration (469), PA 120, HP 120 (was 100) -->
     <Job>
       <Id>77</Id>
+      <HPMultiplier>120</HPMultiplier>
       <PAMultiplier>120</PAMultiplier>
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
@@ -169,19 +194,20 @@
       <HPMultiplier>84</HPMultiplier>
     </Job>
 
-    <!-- ID 86: GEOMANCER - Magick Boost (467) -->
+    <!-- ID 86: GEOMANCER - Magick Boost (467), HP 132 (was 110) -->
     <Job>
       <Id>86</Id>
+      <HPMultiplier>132</HPMultiplier>
       <InnateAbilityId1>467</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 87: DRAGOON - Ignore Elevation (492), Move 4, PA 128, HP 135 -->
+    <!-- ID 87: DRAGOON - Ignore Elevation (492), Move 4, PA 128, HP 149 (was 135) -->
     <Job>
       <Id>87</Id>
-      <HPMultiplier>135</HPMultiplier>
+      <HPMultiplier>149</HPMultiplier>
       <PAMultiplier>128</PAMultiplier>
       <Move>4</Move>
       <InnateAbilityId1>492</InnateAbilityId1>
@@ -190,9 +216,10 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 88: SAMURAI - Doublehand (476), PA 135 -->
+    <!-- ID 88: SAMURAI - Doublehand (476), PA 135, HP 90 (was 75) -->
     <Job>
       <Id>88</Id>
+      <HPMultiplier>90</HPMultiplier>
       <PAMultiplier>135</PAMultiplier>
       <InnateAbilityId1>476</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
@@ -200,10 +227,10 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 30: HOLY KNIGHT - Safeguard (475), HP 155, PA 115, MA 105 -->
+    <!-- ID 30: HOLY KNIGHT - Safeguard (475), HP 171 (was 155), PA 115, MA 105 -->
     <Job>
       <Id>30</Id>
-      <HPMultiplier>155</HPMultiplier>
+      <HPMultiplier>171</HPMultiplier>
       <PAMultiplier>115</PAMultiplier>
       <MAMultiplier>105</MAMultiplier>
       <InnateAbilityId1>475</InnateAbilityId1>
@@ -212,19 +239,104 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- ID 91: BARD -->
+    <!-- ID 91: BARD - HP 66 (was 55) -->
     <Job>
       <Id>91</Id>
+      <HPMultiplier>66</HPMultiplier>
     </Job>
 
-    <!-- ID 92: DANCER -->
+    <!-- ID 92: DANCER - HP 72 (was 60) -->
     <Job>
       <Id>92</Id>
+      <HPMultiplier>72</HPMultiplier>
     </Job>
 
-    <!-- ID 36: DIVINE KNIGHT - PA 120 -->
+    <!-- ID 93: MIME - HP 168 (was 140) -->
+    <Job>
+      <Id>93</Id>
+      <HPMultiplier>168</HPMultiplier>
+    </Job>
+
+    <!-- UNIQUE JOB HP BUFFS (+20%) -->
+    <!-- ID 5: HOLY KNIGHT (Agrias) - HP 156 (was 130) -->
+    <Job><Id>5</Id><HPMultiplier>156</HPMultiplier></Job>
+
+    <!-- ID 6: THUNDER GOD - HP 180 (was 150) -->
+    <Job><Id>6</Id><HPMultiplier>180</HPMultiplier></Job>
+
+    <!-- ID 8: ARK KNIGHT - HP 202 (was 168) -->
+    <Job><Id>8</Id><HPMultiplier>202</HPMultiplier></Job>
+
+    <!-- ID 9: RUNE KNIGHT - HP 204 (was 170) -->
+    <Job><Id>9</Id><HPMultiplier>204</HPMultiplier></Job>
+
+    <!-- ID 13: SWORD SAINT - HP 192 (was 160) -->
+    <Job><Id>13</Id><HPMultiplier>192</HPMultiplier></Job>
+
+    <!-- ID 15: DRAGONKIN - HP 168 (was 140) -->
+    <Job><Id>15</Id><HPMultiplier>168</HPMultiplier></Job>
+
+    <!-- ID 16: CELEBRANT - HP 192 (was 160) -->
+    <Job><Id>16</Id><HPMultiplier>192</HPMultiplier></Job>
+
+    <!-- ID 17: FELL KNIGHT - HP 180 (was 150) -->
+    <Job><Id>17</Id><HPMultiplier>180</HPMultiplier></Job>
+
+    <!-- ID 20: CLERIC - HP 120 (was 100) -->
+    <Job><Id>20</Id><HPMultiplier>120</HPMultiplier></Job>
+
+    <!-- ID 21: ASTROLOGER - HP 130 (was 108) -->
+    <Job><Id>21</Id><HPMultiplier>130</HPMultiplier></Job>
+
+    <!-- ID 22: MACHINIST - HP 120 (was 100) -->
+    <Job><Id>22</Id><HPMultiplier>120</HPMultiplier></Job>
+
+    <!-- ID 25: SKYSEER - HP 108 (was 90) -->
+    <Job><Id>25</Id><HPMultiplier>108</HPMultiplier></Job>
+
+    <!-- ID 26: NETHERSEER - HP 120 (was 100) -->
+    <Job><Id>26</Id><HPMultiplier>120</HPMultiplier></Job>
+
+    <!-- ID 27: ARK KNIGHT (Delita) - HP 228 (was 190) -->
+    <Job><Id>27</Id><HPMultiplier>228</HPMultiplier></Job>
+
+    <!-- ID 31: TEMPLAR - HP 146 (was 122) -->
+    <Job><Id>31</Id><HPMultiplier>146</HPMultiplier></Job>
+
+    <!-- ID 32: WHITE KNIGHT - HP 180 (was 150) -->
+    <Job><Id>32</Id><HPMultiplier>180</HPMultiplier></Job>
+
+    <!-- ID 37: DIVINE KNIGHT - HP 180 (was 150) -->
+    <Job><Id>37</Id><HPMultiplier>180</HPMultiplier></Job>
+
+    <!-- ID 38: NIGHTBLADE - HP 186 (was 155) -->
+    <Job><Id>38</Id><HPMultiplier>186</HPMultiplier></Job>
+
+    <!-- ID 39: SORCERER - HP 150 (was 125) -->
+    <Job><Id>39</Id><HPMultiplier>150</HPMultiplier></Job>
+
+    <!-- ID 40: WHITE KNIGHT (Meliadoul) - HP 240 (was 200) -->
+    <Job><Id>40</Id><HPMultiplier>240</HPMultiplier></Job>
+
+    <!-- ID 42: DIVINE KNIGHT - HP 150 (was 125) -->
+    <Job><Id>42</Id><HPMultiplier>150</HPMultiplier></Job>
+
+    <!-- ID 45: ASSASSIN - HP 192 (was 160) -->
+    <Job><Id>45</Id><HPMultiplier>192</HPMultiplier></Job>
+
+    <!-- ID 46: ASSASSIN - HP 186 (was 155) -->
+    <Job><Id>46</Id><HPMultiplier>186</HPMultiplier></Job>
+
+    <!-- ID 47: DIVINE KNIGHT - HP 150 (was 125) -->
+    <Job><Id>47</Id><HPMultiplier>150</HPMultiplier></Job>
+
+    <!-- ID 48: CLERIC - HP 108 (was 90) -->
+    <Job><Id>48</Id><HPMultiplier>108</HPMultiplier></Job>
+
+    <!-- ID 36: DIVINE KNIGHT - PA 120, HP 198 (was 165) -->
     <Job>
       <Id>36</Id>
+      <HPMultiplier>198</HPMultiplier>
       <PAMultiplier>120</PAMultiplier>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
