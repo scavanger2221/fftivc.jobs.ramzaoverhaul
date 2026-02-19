@@ -362,8 +362,8 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
     </ItemWeapon>
 
     <ItemWeapon>
-      <Id>72</Id> <!-- Mythril Gun: 8 → 9 -->
-      <Power>9</Power>
+      <Id>72</Id> <!-- Mythril Gun: 8 → 10 -->
+      <Power>10</Power>
     </ItemWeapon>
 
     <ItemWeapon>
