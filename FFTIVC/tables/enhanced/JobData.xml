@@ -17,8 +17,8 @@
       <MPMultiplier>105</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>100</SpeedMultiplier>
-      <PAGrowth>46</PAGrowth>
-      <PAMultiplier>115</PAMultiplier>
+      <PAGrowth>46</rAGrowth>
+      <PAMultiplier>120</PAMultiplier>
       <MAGrowth>48</MAGrowth>
       <MAMultiplier>105</MAMultiplier>
       <Move>4</Move>
@@ -42,7 +42,7 @@
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>105</SpeedMultiplier>
       <PAGrowth>45</PAGrowth>
-      <PAMultiplier>125</PAMultiplier>
+      <PAMultiplier>130</PAMultiplier>
       <MAGrowth>46</MAGrowth>
       <MAMultiplier>110</MAMultiplier>
       <Move>4</Move>
@@ -58,7 +58,7 @@
     <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482), HP 175 (was 150) -->
     <Job>
       <Id>3</Id>
-      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Polearm, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Bow, Crossbow, Polearm, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
       <HPGrowth>11</HPGrowth>
       <HPMultiplier>175</HPMultiplier>
       <MPGrowth>11</MPGrowth>
@@ -66,7 +66,7 @@
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>110</SpeedMultiplier>
       <PAGrowth>44</PAGrowth>
-      <PAMultiplier>130</PAMultiplier>
+      <PAMultiplier>140</PAMultiplier>
       <MAGrowth>44</MAGrowth>
       <MAMultiplier>120</MAMultiplier>
       <Move>4</Move>
