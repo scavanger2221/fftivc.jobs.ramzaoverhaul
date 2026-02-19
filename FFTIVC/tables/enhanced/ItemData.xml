@@ -12,15 +12,15 @@ Pattern: Trade-off between raw HP and extra PA/MA bonuses
     <!-- GENJI SET -->
     <Item>
       <Id>155</Id> <!-- Genji Helm -->
-      <EquipBonusId>51</EquipBonusId>
+      <EquipBonusId>74</EquipBonusId>
     </Item>
     <Item>
       <Id>183</Id> <!-- Genji Armor -->
-      <EquipBonusId>52</EquipBonusId>
+      <EquipBonusId>75</EquipBonusId>
     </Item>
     <Item>
       <Id>140</Id> <!-- Genji Shield -->
-      <EquipBonusId>53</EquipBonusId>
+      <EquipBonusId>76</EquipBonusId>
     </Item>
 
     <!-- ARMOR PATTERN (Bonus -> No Bonus -> Bonus) -->
@@ -29,20 +29,20 @@ Pattern: Trade-off between raw HP and extra PA/MA bonuses
       <EquipBonusId>0</EquipBonusId>
     </Item>
     <Item>
-      <Id>180</Id> <!-- Platinum Armor: Bonus -->
-      <EquipBonusId>55</EquipBonusId>
+      <Id>180</Id> <!-- Platinum Armor: Bonus (shares ID 21 with Headgear - both PA+1) -->
+      <EquipBonusId>21</EquipBonusId>
     </Item>
     <Item>
       <Id>181</Id> <!-- Carabineer Mail: No Bonus (High HP) -->
       <EquipBonusId>0</EquipBonusId>
     </Item>
     <Item>
-      <Id>182</Id> <!-- Crystal Mail: Bonus -->
-      <EquipBonusId>57</EquipBonusId>
+      <Id>182</Id> <!-- Crystal Mail: Bonus (shares ID 30 with Jujitsu Gi - both PA+1) -->
+      <EquipBonusId>30</EquipBonusId>
     </Item>
     <Item>
       <Id>185</Id> <!-- Maximillian: Balanced Bonus -->
-      <EquipBonusId>61</EquipBonusId>
+      <EquipBonusId>77</EquipBonusId>
     </Item>
 
     <!-- HELM PATTERN (Similar logic) -->
@@ -51,20 +51,20 @@ Pattern: Trade-off between raw HP and extra PA/MA bonuses
       <EquipBonusId>0</EquipBonusId>
     </Item>
     <Item>
-      <Id>152</Id> <!-- Platinum Helm: Bonus -->
-      <EquipBonusId>58</EquipBonusId>
+      <Id>152</Id> <!-- Platinum Helm: Bonus (shares ID 49 with Power Gauntlets - both PA+1) -->
+      <EquipBonusId>49</EquipBonusId>
     </Item>
     <Item>
       <Id>153</Id> <!-- Circlet: No Bonus -->
       <EquipBonusId>0</EquipBonusId>
     </Item>
     <Item>
-      <Id>154</Id> <!-- Crystal Helm: Bonus -->
-      <EquipBonusId>59</EquipBonusId>
+      <Id>154</Id> <!-- Crystal Helm: Bonus (shares ID 22 with Wizard's Hat - both MA+1) -->
+      <EquipBonusId>22</EquipBonusId>
     </Item>
     <Item>
-      <Id>156</Id> <!-- Grand Helm: Ultimate Bonus -->
-      <EquipBonusId>60</EquipBonusId>
+      <Id>156</Id> <!-- Grand Helm: Modified vanilla ID 20 (PA+1, Speed+1, Sleep/Blind immune) -->
+      <EquipBonusId>20</EquipBonusId>
     </Item>
 
   </Entries>

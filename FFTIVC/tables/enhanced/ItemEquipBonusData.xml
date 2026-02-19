@@ -3,6 +3,8 @@
 <!--
 Ramza Progressive Buff Mod - Item Equip Bonuses
 Refined progression for late-game Heavy Gear
+
+Note: Using unused IDs (74-77) for unique bonuses to avoid conflicts with vanilla accessories
 -->
 
 <ItemEquipBonusTable>
@@ -17,39 +19,6 @@ Refined progression for late-game Heavy Gear
       <ImmuneStatus>Disable</ImmuneStatus>
     </ItemEquipBonus>
 
-    <!-- Genji Helm (Id 51) -->
-    <ItemEquipBonus>
-      <Id>51</Id>
-      <SpeedBonus>1</SpeedBonus>
-      <ImmuneStatus>Stone</ImmuneStatus>
-    </ItemEquipBonus>
-
-    <!-- Genji Armor (Id 52) -->
-    <ItemEquipBonus>
-      <Id>52</Id>
-      <PABonus>1</PABonus>
-      <MABonus>1</MABonus>
-      <InnateStatus>Regen</InnateStatus>
-    </ItemEquipBonus>
-
-    <!-- Genji Shield (Id 53) -->
-    <ItemEquipBonus>
-      <Id>53</Id>
-      <InnateStatus>Shell</InnateStatus>
-    </ItemEquipBonus>
-
-    <!-- Platinum Armor (Id 55) -->
-    <ItemEquipBonus>
-      <Id>55</Id>
-      <PABonus>1</PABonus>
-    </ItemEquipBonus>
-
-    <!-- Crystal Mail (Id 57) -->
-    <ItemEquipBonus>
-      <Id>57</Id>
-      <PABonus>1</PABonus>
-    </ItemEquipBonus>
-
     <!-- Mirror Mail (Id 29) -->
     <ItemEquipBonus>
       <Id>29</Id>
@@ -57,30 +26,99 @@ Refined progression for late-game Heavy Gear
       <InnateStatus>Reflect</InnateStatus>
     </ItemEquipBonus>
 
-    <!-- Platinum Helm (Id 58) -->
+    <!-- Grand Helm (Id 20) - Modified vanilla entry (only Grand Helm uses this) -->
     <ItemEquipBonus>
-      <Id>58</Id>
+      <Id>20</Id>
       <PABonus>1</PABonus>
-    </ItemEquipBonus>
-
-    <!-- Crystal Helm (Id 59) -->
-    <ItemEquipBonus>
-      <Id>59</Id>
-      <MABonus>1</MABonus>
-    </ItemEquipBonus>
-
-    <!-- Grand Helm (Id 60) -->
-    <ItemEquipBonus>
-      <Id>60</Id>
-      <PABonus>1</PABonus>
+      <MABonus>0</MABonus>
       <SpeedBonus>1</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>None</InnateStatus>
+      <ImmuneStatus>Sleep, Blind</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
     </ItemEquipBonus>
 
-    <!-- Maximillian (Id 61) - Moving away from Lordly Robe ID -->
+    <!-- Genji Helm (Id 74) - New unused ID -->
     <ItemEquipBonus>
-      <Id>61</Id>
+      <Id>74</Id>
+      <PABonus>0</PABonus>
+      <MABonus>0</MABonus>
+      <SpeedBonus>1</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>None</InnateStatus>
+      <ImmuneStatus>Stone</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
+    </ItemEquipBonus>
+
+    <!-- Genji Armor (Id 75) - New unused ID -->
+    <ItemEquipBonus>
+      <Id>75</Id>
       <PABonus>1</PABonus>
+      <MABonus>1</MABonus>
+      <SpeedBonus>0</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>Regen</InnateStatus>
+      <ImmuneStatus>None</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
+    </ItemEquipBonus>
+
+    <!-- Genji Shield (Id 76) - New unused ID -->
+    <ItemEquipBonus>
+      <Id>76</Id>
+      <PABonus>0</PABonus>
+      <MABonus>0</MABonus>
+      <SpeedBonus>0</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
+      <InnateStatus>Shell</InnateStatus>
+      <ImmuneStatus>None</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
+    </ItemEquipBonus>
+
+    <!-- Maximillian (Id 77) - New unused ID -->
+    <ItemEquipBonus>
+      <Id>77</Id>
+      <PABonus>1</PABonus>
+      <MABonus>0</MABonus>
+      <SpeedBonus>0</SpeedBonus>
+      <MoveBonus>0</MoveBonus>
+      <JumpBonus>0</JumpBonus>
       <InnateStatus>Protect</InnateStatus>
+      <ImmuneStatus>None</ImmuneStatus>
+      <StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements>
+      <NullifyElements>None</NullifyElements>
+      <HalveElements>None</HalveElements>
+      <WeakElements>None</WeakElements>
+      <StrongElements>None</StrongElements>
+      <BoostJP>false</BoostJP>
     </ItemEquipBonus>
 
   </Entries>
