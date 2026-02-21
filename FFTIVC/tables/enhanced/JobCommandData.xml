@@ -188,5 +188,34 @@ Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
       <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
     </JobCommand>
 
+    <!-- ==================== RAMZA CHAPTER 4: HOLY SWORD TECHNIQUES ==================== -->
+    <JobCommand>
+      <Id>3</Id>   <!-- Ramza CH4 - Holy sword techniques (Judgment Blade, Divine Ruination) -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>0</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>155</AbilityId1>   <!-- Judgment Blade -->
+      <AbilityId2>159</AbilityId2>   <!-- Divine Ruination -->
+      <AbilityId3>0</AbilityId3>
+      <AbilityId4>0</AbilityId4>
+      <AbilityId5>0</AbilityId5>
+      <AbilityId6>0</AbilityId6>
+      <AbilityId7>0</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>0</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+
   </Entries>
 </JobCommandTable>
