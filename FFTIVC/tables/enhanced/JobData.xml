@@ -17,7 +17,7 @@
       <MPMultiplier>105</MPMultiplier>
       <SpeedGrowth>98</SpeedGrowth>
       <SpeedMultiplier>100</SpeedMultiplier>
-      <PAGrowth>46</rAGrowth>
+      <PAGrowth>46</PAGrowth>
       <PAMultiplier>120</PAMultiplier>
       <MAGrowth>48</MAGrowth>
       <MAMultiplier>105</MAMultiplier>
@@ -31,7 +31,7 @@
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 2: RAMZA CH2-3 - Concentration (469), Reequip (480), HP 160 (was 140) -->
+    <!-- ID 2: RAMZA CH2-3 - Concentration (469), HP 160 (was 140) -->
     <Job>
       <Id>2</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, Sword, Knife, Bow, Crossbow, Polearm, Pole, Unarmed</EquippableItems>
@@ -49,13 +49,13 @@
       <Jump>4</Jump>
       <CharacterEvasion>12</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
-      <InnateAbilityId2>480</InnateAbilityId2>
+      <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
       <ImmuneStatus>Traitor</ImmuneStatus>
     </Job>
 
-    <!-- ID 3: RAMZA CH4 - Concentration (469), Reequip (480), Swiftspell (482), HP 175 (was 150) -->
+    <!-- ID 3: RAMZA CH4 - Concentration (469), Attack Boost (465), Swiftspell (482), HP 175 (was 150) -->
     <Job>
       <Id>3</Id>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, Armor, HairAdornment, Hat, Helmet, Shield, Flail, KnightSword, Sword, Knife, Bow, Crossbow, Polearm, Pole, Katana, NinjaBlade, Unarmed</EquippableItems>
@@ -73,7 +73,7 @@
       <Jump>4</Jump>
       <CharacterEvasion>15</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
-      <InnateAbilityId2>480</InnateAbilityId2>
+      <InnateAbilityId2>465</InnateAbilityId2>
       <InnateAbilityId3>482</InnateAbilityId3>
       <InnateAbilityId4>0</InnateAbilityId4>
       <ImmuneStatus>Traitor</ImmuneStatus>
@@ -291,11 +291,19 @@
     <!-- ID 22: MACHINIST - HP 120 (was 100) -->
     <Job><Id>22</Id><HPMultiplier>120</HPMultiplier></Job>
 
-    <!-- ID 25: SKYSEER - HP 108 (was 90) -->
-    <Job><Id>25</Id><HPMultiplier>108</HPMultiplier></Job>
+    <!-- ID 25: SKYSEER - HP 120 (was 90), MA 120 -->
+    <Job>
+      <Id>25</Id>
+      <HPMultiplier>120</HPMultiplier>
+      <MAMultiplier>120</MAMultiplier>
+    </Job>
 
-    <!-- ID 26: NETHERSEER - HP 120 (was 100) -->
-    <Job><Id>26</Id><HPMultiplier>120</HPMultiplier></Job>
+    <!-- ID 26: NETHERSEER - HP 155 (was 100), MA 120 -->
+    <Job>
+      <Id>26</Id>
+      <HPMultiplier>155</HPMultiplier>
+      <MAMultiplier>120</MAMultiplier>
+    </Job>
 
     <!-- ID 27: ARK KNIGHT (Delita) - HP 228 (was 190) -->
     <Job><Id>27</Id><HPMultiplier>228</HPMultiplier></Job>
