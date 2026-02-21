@@ -174,48 +174,6 @@ Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
       <AbilityId8>0</AbilityId8>
       <AbilityId9>0</AbilityId9>
       <AbilityId10>0</AbilityId10>
-      <AbilityId11>0</AbilityId11>
-      <AbilityId12>0</AbilityId12>
-      <AbilityId13>0</AbilityId13>
-      <AbilityId14>0</AbilityId14>
-      <AbilityId15>0</AbilityId15>
-      <AbilityId16>0</AbilityId16>
-      <ReactionSupportMovementId1>422</ReactionSupportMovementId1>
-      <ReactionSupportMovementId2>429</ReactionSupportMovementId2>
-      <ReactionSupportMovementId3>491</ReactionSupportMovementId3>
-      <ReactionSupportMovementId4>507</ReactionSupportMovementId4>
-      <ReactionSupportMovementId5>488</ReactionSupportMovementId5>   <!-- Move +3 (added) -->
-      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
-    </JobCommand>
-
-    <!-- ==================== RAMZA CHAPTER 4: HOLY SWORD TECHNIQUES ==================== -->
-    <JobCommand>
-      <Id>27</Id>
-      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
-      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
-      <AbilityId1>146</AbilityId1>
-      <AbilityId2>147</AbilityId2>
-      <AbilityId3>148</AbilityId3>
-      <AbilityId4>149</AbilityId4>
-      <AbilityId5>150</AbilityId5>
-      <AbilityId6>152</AbilityId6>
-      <AbilityId7>151</AbilityId7>   <!-- Steel (Ch 2) -->
-      <AbilityId8>165</AbilityId8>   <!-- Shadowblade (Ch 2) -->
-      <AbilityId9>164</AbilityId9>   <!-- Duskblade (Ch 2) -->
-      <AbilityId10>153</AbilityId10>  <!-- Shout (Added in Ch 4) -->
-      <AbilityId11>155</AbilityId11>  <!-- Judgment Blade (Added in Ch 4) -->
-      <AbilityId12>159</AbilityId12>  <!-- Divine Ruination (Added in Ch 4) -->
-      <AbilityId13>0</AbilityId13>
-      <AbilityId14>0</AbilityId14>
-      <AbilityId15>0</AbilityId15>
-      <AbilityId16>154</AbilityId16>  <!-- Ultima (Slot 16) -->
-      <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
-      <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
-      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
-      <ReactionSupportMovementId4>479</ReactionSupportMovementId4>
-      <ReactionSupportMovementId5>463</ReactionSupportMovementId5>
-      <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
-    </JobCommand>
 
   </Entries>
 </JobCommandTable>
