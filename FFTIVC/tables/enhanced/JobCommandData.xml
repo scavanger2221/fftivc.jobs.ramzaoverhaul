@@ -87,8 +87,8 @@ Ultima (154) is in the last slot (AbilityId16) and learnable ONLY on hit.
       <AbilityId8>165</AbilityId8>   <!-- Shadowblade (Ch 2) -->
       <AbilityId9>164</AbilityId9>   <!-- Duskblade (Ch 2) -->
       <AbilityId10>153</AbilityId10>  <!-- Shout (Added in Ch 4) -->
-      <AbilityId11>0</AbilityId11>
-      <AbilityId12>0</AbilityId12>
+      <AbilityId11>155</AbilityId11>  <!-- Judgment Blade (Added in Ch 4) -->
+      <AbilityId12>159</AbilityId12>  <!-- Divine Ruination (Added in Ch 4) -->
       <AbilityId13>0</AbilityId13>
       <AbilityId14>0</AbilityId14>
       <AbilityId15>0</AbilityId15>
