@@ -352,103 +352,155 @@
       <InnateAbilityId4>0</InnateAbilityId4>
     </Job>
 
-    <!-- MONSTER HP BUFFS (+20% from previous) -->
+    <!-- MONSTER BUFFS: PA/MA +10%, HP maintained -->
 
-    <Job><Id>97</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>98</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>99</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>170</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>171</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>94</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>95</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>96</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>173</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>100</Id><HPMultiplier>132</HPMultiplier></Job>
-    <Job><Id>101</Id><HPMultiplier>138</HPMultiplier></Job>
-    <Job><Id>102</Id><HPMultiplier>144</HPMultiplier></Job>
-    <Job><Id>172</Id><HPMultiplier>132</HPMultiplier></Job>
-    <Job><Id>103</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>104</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>105</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>106</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>107</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>108</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>109</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>110</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>111</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>112</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>113</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>114</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>115</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>116</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>117</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>118</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>119</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>120</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>121</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>122</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>123</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>124</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>125</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>126</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>127</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>128</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>129</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>130</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>131</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>132</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>133</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>134</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>135</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>136</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>137</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>138</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>139</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>140</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>141</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>142</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>143</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>144</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>145</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>146</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>147</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>148</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>149</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>150</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>151</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>152</Id><HPMultiplier>198</HPMultiplier></Job>
-    <Job><Id>153</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>154</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>155</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>156</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>157</Id><HPMultiplier>198</HPMultiplier></Job>
-    <Job><Id>158</Id><HPMultiplier>204</HPMultiplier></Job>
-    <Job><Id>159</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>160</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>161</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>162</Id><HPMultiplier>198</HPMultiplier></Job>
-    <Job><Id>163</Id><HPMultiplier>204</HPMultiplier></Job>
-    <Job><Id>164</Id><HPMultiplier>210</HPMultiplier></Job>
-    <Job><Id>165</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>166</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>167</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>168</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>169</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>174</Id><HPMultiplier>156</HPMultiplier></Job>
-    <Job><Id>175</Id><HPMultiplier>162</HPMultiplier></Job>
-    <Job><Id>176</Id><HPMultiplier>168</HPMultiplier></Job>
-    <Job><Id>177</Id><HPMultiplier>174</HPMultiplier></Job>
-    <Job><Id>178</Id><HPMultiplier>180</HPMultiplier></Job>
-    <Job><Id>179</Id><HPMultiplier>186</HPMultiplier></Job>
-    <Job><Id>180</Id><HPMultiplier>192</HPMultiplier></Job>
-    <Job><Id>181</Id><HPMultiplier>198</HPMultiplier></Job>
-    <Job><Id>182</Id><HPMultiplier>204</HPMultiplier></Job>
-    <Job><Id>183</Id><HPMultiplier>210</HPMultiplier></Job>
-    <Job><Id>184</Id><HPMultiplier>216</HPMultiplier></Job>
-    <Job><Id>185</Id><HPMultiplier>222</HPMultiplier></Job>
-    <Job><Id>186</Id><HPMultiplier>228</HPMultiplier></Job>
-    <Job><Id>187</Id><HPMultiplier>234</HPMultiplier></Job>
-    <Job><Id>188</Id><HPMultiplier>240</HPMultiplier></Job>
+    <!-- Chocobos -->
+    <Job><Id>94</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>95</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>165</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>96</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>143</PAMultiplier><MAMultiplier>108</MAMultiplier></Job>
+    <Job><Id>173</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+
+    <!-- Goblins -->
+    <Job><Id>170</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>171</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>113</PAMultiplier><MAMultiplier>95</MAMultiplier></Job>
+
+    <!-- Bombs -->
+    <Job><Id>172</Id><HPMultiplier>132</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>102</MAMultiplier></Job>
+
+    <!-- Panthers -->
+    <Job><Id>97</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>98</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>113</PAMultiplier><MAMultiplier>95</MAMultiplier></Job>
+    <Job><Id>99</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>126</PAMultiplier><MAMultiplier>101</MAMultiplier></Job>
+
+    <!-- Morbols -->
+    <Job><Id>100</Id><HPMultiplier>132</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>102</MAMultiplier></Job>
+    <Job><Id>101</Id><HPMultiplier>138</HPMultiplier><PAMultiplier>93</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>102</Id><HPMultiplier>144</HPMultiplier><PAMultiplier>127</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
+
+    <!-- Skeletons -->
+    <Job><Id>103</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>104</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>127</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>105</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>145</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+
+    <!-- Ghouls -->
+    <Job><Id>106</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>99</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
+    <Job><Id>107</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>111</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
+
+    <!-- Floating Eyes -->
+    <Job><Id>108</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>139</PAMultiplier><MAMultiplier>101</MAMultiplier></Job>
+    <Job><Id>109</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+
+    <!-- Aevis (Birds) -->
+    <Job><Id>110</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>135</PAMultiplier><MAMultiplier>95</MAMultiplier></Job>
+    <Job><Id>111</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>137</PAMultiplier><MAMultiplier>96</MAMultiplier></Job>
+    <Job><Id>112</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>99</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>113</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>102</PAMultiplier><MAMultiplier>116</MAMultiplier></Job>
+    <Job><Id>114</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>106</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
+    <Job><Id>115</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>99</PAMultiplier><MAMultiplier>97</MAMultiplier></Job>
+
+    <!-- Tauros -->
+    <Job><Id>116</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>154</PAMultiplier><MAMultiplier>104</MAMultiplier></Job>
+    <Job><Id>117</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>139</PAMultiplier><MAMultiplier>132</MAMultiplier></Job>
+
+    <!-- Flans -->
+    <Job><Id>118</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>119</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>99</MAMultiplier></Job>
+
+    <!-- Cactuar -->
+    <Job><Id>120</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>167</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+
+    <!-- Hydras -->
+    <Job><Id>121</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>77</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
+    <Job><Id>122</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>88</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
+    <Job><Id>123</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>176</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
+
+    <!-- Behemoths -->
+    <Job><Id>124</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>125</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>99</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+
+    <!-- Dragons -->
+    <Job><Id>126</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>127</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>135</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>128</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>167</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>129</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>176</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>130</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>131</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>125</PAMultiplier><MAMultiplier>125</MAMultiplier></Job>
+    <Job><Id>132</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>104</MAMultiplier></Job>
+    <Job><Id>133</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>147</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+
+    <!-- Spirits/Elementals -->
+    <Job><Id>134</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>135</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>105</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>136</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>137</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>138</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
+    <Job><Id>139</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>140</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+
+    <!-- Revenants/Demons -->
+    <Job><Id>141</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>142</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>143</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>144</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+
+    <!-- Lucavi & Boss Monsters -->
+    <Job><Id>145</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>146</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>147</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>148</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>149</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>150</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>151</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>55</PAMultiplier><MAMultiplier>137</MAMultiplier></Job>
+    <Job><Id>152</Id><HPMultiplier>198</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>153</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>154</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>148</PAMultiplier><MAMultiplier>140</MAMultiplier></Job>
+
+    <!-- Post-Lucavi -->
+    <Job><Id>155</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>156</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>157</Id><HPMultiplier>198</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>158</Id><HPMultiplier>204</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+
+    <!-- Panthers -->
+    <Job><Id>159</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>160</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>161</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>162</Id><HPMultiplier>198</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>163</Id><HPMultiplier>204</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+    <Job><Id>164</Id><HPMultiplier>210</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+
+    <!-- Goblin variants -->
+    <Job><Id>165</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>166</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>167</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>168</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>161</PAMultiplier><MAMultiplier>125</MAMultiplier></Job>
+    <Job><Id>169</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>118</PAMultiplier><MAMultiplier>93</MAMultiplier></Job>
+
+    <!-- High-end enemies -->
+    <Job><Id>174</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>175</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>176</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>177</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>178</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>179</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>180</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>181</Id><HPMultiplier>198</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>182</Id><HPMultiplier>204</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>183</Id><HPMultiplier>210</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>184</Id><HPMultiplier>216</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>185</Id><HPMultiplier>222</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>186</Id><HPMultiplier>228</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>187</Id><HPMultiplier>234</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+    <Job><Id>188</Id><HPMultiplier>240</HPMultiplier><PAMultiplier>107</PAMultiplier><MAMultiplier>103</MAMultiplier></Job>
+
+    <!-- LUCAVI HP BUFFS (+40-50%) -->
+    <Job><Id>60</Id><HPMultiplier>135</HPMultiplier></Job>
+    <Job><Id>62</Id><HPMultiplier>120</HPMultiplier></Job>
+    <Job><Id>64</Id><HPMultiplier>120</HPMultiplier></Job>
+    <Job><Id>65</Id><HPMultiplier>100</HPMultiplier></Job>
+    <Job><Id>67</Id><HPMultiplier>95</HPMultiplier></Job>
+    <Job><Id>69</Id><HPMultiplier>130</HPMultiplier></Job>
+    <Job><Id>73</Id><HPMultiplier>180</HPMultiplier></Job>
 
   </Entries>
 </JobTable>
