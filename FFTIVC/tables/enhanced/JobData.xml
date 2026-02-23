@@ -23,7 +23,7 @@
       <MAMultiplier>105</MAMultiplier>
       <Move>4</Move>
       <Jump>3</Jump>
-      <CharacterEvasion>10</CharacterEvasion>
+      <CharacterEvasion>20</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
@@ -47,7 +47,7 @@
       <MAMultiplier>110</MAMultiplier>
       <Move>4</Move>
       <Jump>4</Jump>
-      <CharacterEvasion>12</CharacterEvasion>
+      <CharacterEvasion>24</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>0</InnateAbilityId3>
@@ -71,7 +71,7 @@
       <MAMultiplier>120</MAMultiplier>
       <Move>4</Move>
       <Jump>4</Jump>
-      <CharacterEvasion>15</CharacterEvasion>
+      <CharacterEvasion>30</CharacterEvasion>
       <InnateAbilityId1>469</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>482</InnateAbilityId3>
