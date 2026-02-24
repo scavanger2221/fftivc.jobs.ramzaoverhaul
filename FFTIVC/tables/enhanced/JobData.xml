@@ -446,8 +446,8 @@
     <Job><Id>144</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
 
     <!-- Lucavi & Boss Monsters -->
-    <Job><Id>145</Id><HPMultiplier>186</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
-    <Job><Id>146</Id><HPMultiplier>192</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
+    <Job><Id>145</Id><HPMultiplier>115</HPMultiplier><PAMultiplier>142</PAMultiplier><MAMultiplier>0</MAMultiplier></Job>
+
     <Job><Id>147</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
     <Job><Id>148</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
     <Job><Id>149</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
