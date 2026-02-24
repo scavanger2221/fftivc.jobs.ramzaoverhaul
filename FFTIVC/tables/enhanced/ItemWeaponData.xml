@@ -43,10 +43,10 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Power>11</Power>
     </ItemWeapon>
 
-    <!-- Late Game: +3 -->
+    <!-- Late Game: +2 -->
     <ItemWeapon>
-      <Id>89</Id> <!-- Artemis Bow: 10 → 14 -->
-      <Power>14</Power>
+      <Id>89</Id> <!-- Artemis Bow: 10 → 12 -->
+      <Power>12</Power>
     </ItemWeapon>
 
     <ItemWeapon>
