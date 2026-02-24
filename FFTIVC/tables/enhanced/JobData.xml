@@ -436,9 +436,9 @@
     <Job><Id>138</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
 
     <!-- Hydras -->
-    <Job><Id>139</Id><HPMultiplier>80</HPMultiplier><PAMultiplier>133</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
-    <Job><Id>140</Id><HPMultiplier>100</HPMultiplier><PAMultiplier>151</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
-    <Job><Id>141</Id><HPMultiplier>112</HPMultiplier><PAMultiplier>175</PAMultiplier><MAMultiplier>120</MAMultiplier></Job>
+    <Job><Id>139</Id><HPMultiplier>92</HPMultiplier><PAMultiplier>153</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>140</Id><HPMultiplier>115</HPMultiplier><PAMultiplier>174</PAMultiplier><MAMultiplier>115</MAMultiplier></Job>
+    <Job><Id>141</Id><HPMultiplier>129</HPMultiplier><PAMultiplier>201</PAMultiplier><MAMultiplier>138</MAMultiplier></Job>
 
     <!-- Revenants/Demons -->
     <Job><Id>142</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
