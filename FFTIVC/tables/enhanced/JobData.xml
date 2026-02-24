@@ -409,7 +409,7 @@
     <!-- Cactuar -->
     <Job><Id>120</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>167</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
 
-    <!-- Hydras -->
+    <!-- Pigs -->
     <Job><Id>121</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>77</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
     <Job><Id>122</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>88</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
     <Job><Id>123</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>176</PAMultiplier><MAMultiplier>121</MAMultiplier></Job>
@@ -434,11 +434,13 @@
     <Job><Id>136</Id><HPMultiplier>156</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
     <Job><Id>137</Id><HPMultiplier>162</HPMultiplier><PAMultiplier>110</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
     <Job><Id>138</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>105</MAMultiplier></Job>
+
+    <!-- Hydras -->
     <Job><Id>139</Id><HPMultiplier>80</HPMultiplier><PAMultiplier>133</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
     <Job><Id>140</Id><HPMultiplier>100</HPMultiplier><PAMultiplier>151</PAMultiplier><MAMultiplier>100</MAMultiplier></Job>
+    <Job><Id>141</Id><HPMultiplier>112</HPMultiplier><PAMultiplier>175</PAMultiplier><MAMultiplier>120</MAMultiplier></Job>
 
     <!-- Revenants/Demons -->
-    <Job><Id>141</Id><HPMultiplier>112</HPMultiplier><PAMultiplier>175</PAMultiplier><MAMultiplier>120</MAMultiplier></Job>
     <Job><Id>142</Id><HPMultiplier>168</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
     <Job><Id>143</Id><HPMultiplier>174</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
     <Job><Id>144</Id><HPMultiplier>180</HPMultiplier><PAMultiplier>115</PAMultiplier><MAMultiplier>110</MAMultiplier></Job>
