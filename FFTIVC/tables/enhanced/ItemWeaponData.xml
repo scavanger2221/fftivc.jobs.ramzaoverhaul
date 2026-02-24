@@ -89,10 +89,10 @@ Tiered buff: Early +1, Mid +2-3, Endgame +4-5
       <Power>8</Power>
     </ItemWeapon>
 
-    <!-- Endgame: +4 -->
+    <!-- Endgame: +2 -->
     <ItemWeapon>
-      <Id>82</Id> <!-- Gastrophetes: 10 → 14 -->
-      <Power>14</Power>
+      <Id>82</Id> <!-- Gastrophetes: 10 → 12 -->
+      <Power>12</Power>
     </ItemWeapon>
 
     <!-- ==================== ENDGAME REGULAR SWORDS (Non-Knight Swords) ==================== -->
